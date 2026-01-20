@@ -10,34 +10,68 @@
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/mesmesures/ImplementationGuide/ans.fhir.fr.mesmesures | *Version*:0.1.0 |
 | Draft as of 2026-01-20 | *Computable Name*:ExampleIG |
 
- **Brief description of this Implementation Guide**
- [Add a brief description of this IG in English] 
+ **Guide d'Implémentation FHIR - API Mesures de santé de Mon Espace Santé**
+ Ce guide d'implémentation définit les spécifications FHIR pour l'interopérabilité avec l'API Mesures de santé de Mon Espace Santé, permettant aux systèmes partenaires de consulter et d'alimenter les mesures de santé des utilisateurs. 
 
-> Cet Implementation Guide n'est pas la version courante, il s'agit de la version en intégration continue soumise à des changements fréquents uniquement destinée à suivre les travaux en cours. La version courante sera accessible via l'URL canonique suite à la première release : http://interop.esante.gouv.fr/ig/fhir/[code - ig]
+> Cet Implementation Guide n'est pas la version courante, il s'agit de la version en intégration continue soumise à des changements fréquents uniquement destinée à suivre les travaux en cours. La version courante sera accessible via l'URL canonique suite à la première release : https://interop.esante.gouv.fr/ig/fhir/mesmesures
 
 Ce guide d'implémentation est un test pour mettre MonEspaceSanté au format IG, et également un test pour mettre plusieurs versions du même package en dépendance.
 
 ### Introduction
 
-Définir ici de quoi parle l'IG (En termes non expert, compréhensible par un patient). Rajouter également les détails techniques sur le contexte et le besoin de cet IG
+La documentation technique de Mon espace santé s'applique aux services ayant ou visant à avoir des échanges de données avec MES (Mon Espace Santé).
+
+Ce guide d'implémentation présente les spécifications FHIR de l'**API Mesures de santé** qui permet aux systèmes partenaires interfacés avec Mon Espace Santé de :
+
+* Consulter les mesures d'un utilisateur
+* Alimenter des mesures prises via des services tiers
+* Proposer à l'utilisateur une vue à jour de ses mesures de santé
 
 Les principales sections de l'IG sont :
 
-* Le contexte de l'IG, quelle problématique il résout
-* Ce que les Implémenteurs doivent mettre en place
-* Un onglet "Ressources de conformité" pour s'assurer d'un schéma global entre tous les IGs
+* **Spécifications techniques** : Description détaillée des flux d'alimentation et de recherche
+* **Ressources de conformité** : Profils FHIR des mesures de santé (Observation, Device)
+* **Historique des versions** : Suivi des évolutions de l'API
 
 ### Périmètre du projet
 
-Définir en quelques lignes quel est le périmètre du projet
+L'API Mesures de santé permet l'échange de **11 types de mesures de santé** entre les systèmes partenaires et Mon Espace Santé :
 
-Toujours laisser l'onglet "Ressources de conformité" pour s'assurer d'une cohérence globales entre tous les IGs
+* Poids corporel (Body Weight)
+* Taille (Body Height)
+* Indice de Masse Corporelle - IMC (Body Mass Index)
+* Pression artérielle (Blood Pressure)
+* Température corporelle (Body Temperature)
+* Glycémie (Glucose)
+* Niveau de douleur (Pain Severity)
+* Nombre de pas quotidien (Steps By Day)
+* Tour de taille (Waist Circumference)
+* Tour de tête (Head Circumference)
+* Fréquence cardiaque (Heart Rate)
 
-### Auteurs et contributeurs (optionnel)
+Les flux couverts sont :
 
-| | | | |
-| :--- | :--- | :--- | :--- |
-| **Primary Editor** | Prenom Nom | Agence du Numérique en Santé | prenom.nom@address.email |
+* **Flux d'alimentation** : Envoi de mesures vers Mon Espace Santé via un Bundle FHIR de type transaction
+* **Flux de recherche** : Consultation des mesures stockées dans Mon Espace Santé
+
+Toutes les requêtes doivent répondre aux exigences d'authentification et d'identification décrites dans la spécification d'appariement.
+
+### Interactions préliminaires
+
+Les interactions entre les partenaires et Mon Espace Santé s'organisent en trois phases préliminaires aux échanges :
+
+1. **Phase administrative**: Référencement et contractualisation
+1. **Phase de setup technique**: Connectivité, partage de secrets, certificats
+1. **Appariement initial**: Consentement de l'utilisateur à l'échange de données avec le partenaire
+
+### Documents référencés
+
+| | |
+| :--- | :--- |
+| Volet mesures de santé v1.2 | Spécifications techniques d'alimentation et de consultation des mesures de santé |
+| Spécifications d'interopérabilité au format Guide d'implémentation v3.0 | Spécifications techniques publiées sous forme d'Implementation Guide |
+
+Le Document chapeau des APIs Mon espace santé peut être trouvé sur le portail de référencement à l'adresse [Référencement éditeurs (monespacesante.fr)](https://monespacesante.fr).
 
 ### Dépendances
 
@@ -80,7 +114,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
   "name" : "ExampleIG",
   "title" : "ANS IG Example",
   "status" : "draft",
-  "date" : "2026-01-20T13:17:20+00:00",
+  "date" : "2026-01-20T13:37:49+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [
     {
@@ -1220,71 +1254,12 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
           "extension" : [
             {
               "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "specifications_fonctionnelles.html"
+              "valueUrl" : "specifications-techniques.html"
             }
           ],
-          "nameUrl" : "specifications_fonctionnelles.html",
-          "title" : "Specifications Fonctionnelles",
-          "generation" : "markdown",
-          "page" : [
-            {
-              "extension" : [
-                {
-                  "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-                  "valueUrl" : "sf1.html"
-                }
-              ],
-              "nameUrl" : "sf1.html",
-              "title" : "Vue d'ensemble",
-              "generation" : "markdown"
-            }
-          ]
-        },
-        {
-          "extension" : [
-            {
-              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "specifications_techniques.html"
-            }
-          ],
-          "nameUrl" : "specifications_techniques.html",
-          "title" : "Specifications Techniques",
-          "generation" : "markdown",
-          "page" : [
-            {
-              "extension" : [
-                {
-                  "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-                  "valueUrl" : "construction_des_flux.html"
-                }
-              ],
-              "nameUrl" : "construction_des_flux.html",
-              "title" : "Vue d'ensemble",
-              "generation" : "markdown"
-            },
-            {
-              "extension" : [
-                {
-                  "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-                  "valueUrl" : "st_flux1.html"
-                }
-              ],
-              "nameUrl" : "st_flux1.html",
-              "title" : "Flux 01",
-              "generation" : "markdown"
-            },
-            {
-              "extension" : [
-                {
-                  "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-                  "valueUrl" : "st_flux2.html"
-                }
-              ],
-              "nameUrl" : "st_flux2.html",
-              "title" : "Flux 02",
-              "generation" : "markdown"
-            }
-          ]
+          "nameUrl" : "specifications-techniques.html",
+          "title" : "Spécifications techniques",
+          "generation" : "markdown"
         },
         {
           "extension" : [

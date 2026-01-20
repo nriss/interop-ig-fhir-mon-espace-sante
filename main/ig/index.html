@@ -101,21 +101,8 @@
   <li>
     <a href="index.html">Volume 1 - Etude fonctionnelle</a>
   </li>
-  <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Volume 2 - Détail des transactions
-      <b class="caret"></b>
-    </a>
-    <ul class="dropdown-menu">
-      <li>
-        <a href="construction_des_flux.html">Construction des flux</a>
-      </li>
-      <li>
-        <a href="st_flux1.html">Flux 01</a>
-      </li>
-      <li>
-        <a href="st_flux2.html">Flux 02</a>
-      </li>
-    </ul>
+  <li>
+    <a href="specifications-techniques.html">Volume 2 - Spécifications techniques</a>
   </li>
   <li>
     <a href="artifacts.html">Ressources de conformité</a>
@@ -165,7 +152,7 @@
 
             <a href="#bottom">bottom</a>
 
-          | <a href="specifications_fonctionnelles.html">next&gt;</a>
+          | <a href="specifications-techniques.html">next&gt;</a>
 
           </span>
 
@@ -245,20 +232,21 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <ul id="markdown-toc">
   <li><a href="#introduction" id="markdown-toc-introduction">Introduction</a></li>
   <li><a href="#périmètre-du-projet" id="markdown-toc-périmètre-du-projet">Périmètre du projet</a></li>
-  <li><a href="#auteurs-et-contributeurs-optionnel" id="markdown-toc-auteurs-et-contributeurs-optionnel">Auteurs et contributeurs (optionnel)</a></li>
+  <li><a href="#interactions-préliminaires" id="markdown-toc-interactions-préliminaires">Interactions préliminaires</a></li>
+  <li><a href="#documents-référencés" id="markdown-toc-documents-référencés">Documents référencés</a></li>
   <li><a href="#dépendances" id="markdown-toc-dépendances">Dépendances</a></li>
   <li><a href="#propriété-intellectuelle" id="markdown-toc-propriété-intellectuelle">Propriété intellectuelle</a></li>
 </ul>
 
 </div>
 <p style="padding: 5px; border-radius: 5px; border: 2px solid maroon; background: #ffffe6; width: 65%">
-<b>Brief description of this Implementation Guide</b><br />
-[Add a brief description of this IG in English]
+<b>Guide d'Implémentation FHIR - API Mesures de santé de Mon Espace Santé</b><br />
+Ce guide d'implémentation définit les spécifications FHIR pour l'interopérabilité avec l'API Mesures de santé de Mon Espace Santé, permettant aux systèmes partenaires de consulter et d'alimenter les mesures de santé des utilisateurs.
 </p>
 
 <div style="width: 65%">
     <blockquote class="stu-note">
-    <p>Cet Implementation Guide n'est pas la version courante, il s'agit de la version en intégration continue soumise à des changements fréquents uniquement destinée à suivre les travaux en cours. La version courante sera accessible via l'URL canonique suite à la première release : http://interop.esante.gouv.fr/ig/fhir/[code - ig]</p>
+    <p>Cet Implementation Guide n'est pas la version courante, il s'agit de la version en intégration continue soumise à des changements fréquents uniquement destinée à suivre les travaux en cours. La version courante sera accessible via l'URL canonique suite à la première release : https://interop.esante.gouv.fr/ig/fhir/mesmesures</p>
     </blockquote>
 </div>
 
@@ -266,42 +254,81 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <h3 id="introduction">Introduction</h3>
 
-<p>Définir ici de quoi parle l'IG (En termes non expert, compréhensible par un patient). Rajouter également les détails techniques sur le contexte et le besoin de cet IG</p>
+<p>La documentation technique de Mon espace santé s'applique aux services ayant ou visant à avoir des échanges de données avec MES (Mon Espace Santé).</p>
 
-<p>Les principales sections de l'IG  sont :</p>
+<p>Ce guide d'implémentation présente les spécifications FHIR de l'<strong>API Mesures de santé</strong> qui permet aux systèmes partenaires interfacés avec Mon Espace Santé de :</p>
+<ul>
+  <li>Consulter les mesures d'un utilisateur</li>
+  <li>Alimenter des mesures prises via des services tiers</li>
+  <li>Proposer à l'utilisateur une vue à jour de ses mesures de santé</li>
+</ul>
+
+<p>Les principales sections de l'IG sont :</p>
 
 <ul>
-  <li>Le contexte de l'IG, quelle problématique il résout</li>
-  <li>Ce que les Implémenteurs doivent mettre en place</li>
-  <li>Un onglet "Ressources de conformité" pour s'assurer d'un schéma global entre tous les IGs</li>
+  <li><strong>Spécifications techniques</strong> : Description détaillée des flux d'alimentation et de recherche</li>
+  <li><strong>Ressources de conformité</strong> : Profils FHIR des mesures de santé (Observation, Device)</li>
+  <li><strong>Historique des versions</strong> : Suivi des évolutions de l'API</li>
 </ul>
 
 <h3 id="périmètre-du-projet">Périmètre du projet</h3>
 
-<p>Définir en quelques lignes quel est le périmètre du projet</p>
+<p>L'API Mesures de santé permet l'échange de <strong>11 types de mesures de santé</strong> entre les systèmes partenaires et Mon Espace Santé :</p>
 
-<p>Toujours laisser l'onglet "Ressources de conformité" pour s'assurer d'une cohérence globales entre tous les IGs</p>
+<ul>
+  <li>Poids corporel (Body Weight)</li>
+  <li>Taille (Body Height)</li>
+  <li>Indice de Masse Corporelle - IMC (Body Mass Index)</li>
+  <li>Pression artérielle (Blood Pressure)</li>
+  <li>Température corporelle (Body Temperature)</li>
+  <li>Glycémie (Glucose)</li>
+  <li>Niveau de douleur (Pain Severity)</li>
+  <li>Nombre de pas quotidien (Steps By Day)</li>
+  <li>Tour de taille (Waist Circumference)</li>
+  <li>Tour de tête (Head Circumference)</li>
+  <li>Fréquence cardiaque (Heart Rate)</li>
+</ul>
 
-<h3 id="auteurs-et-contributeurs-optionnel">Auteurs et contributeurs (optionnel)</h3>
+<p>Les flux couverts sont :</p>
+<ul>
+  <li><strong>Flux d'alimentation</strong> : Envoi de mesures vers Mon Espace Santé via un Bundle FHIR de type transaction</li>
+  <li><strong>Flux de recherche</strong> : Consultation des mesures stockées dans Mon Espace Santé</li>
+</ul>
+
+<p>Toutes les requêtes doivent répondre aux exigences d'authentification et d'identification décrites dans la spécification d'appariement.</p>
+
+<h3 id="interactions-préliminaires">Interactions préliminaires</h3>
+
+<p>Les interactions entre les partenaires et Mon Espace Santé s'organisent en trois phases préliminaires aux échanges :</p>
+
+<ol>
+  <li><strong>Phase administrative</strong> : Référencement et contractualisation</li>
+  <li><strong>Phase de setup technique</strong> : Connectivité, partage de secrets, certificats</li>
+  <li><strong>Appariement initial</strong> : Consentement de l'utilisateur à l'échange de données avec le partenaire</li>
+</ol>
+
+<h3 id="documents-référencés">Documents référencés</h3>
 
 <table>
   <thead>
     <tr>
-      <th>Role</th>
       <th>Nom</th>
-      <th>Organisation</th>
-      <th>Contact</th>
+      <th>Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><strong>Primary Editor</strong></td>
-      <td>Prenom Nom</td>
-      <td>Agence du Numérique en Santé</td>
-      <td>prenom.nom@address.email</td>
+      <td>Volet mesures de santé v1.2</td>
+      <td>Spécifications techniques d'alimentation et de consultation des mesures de santé</td>
+    </tr>
+    <tr>
+      <td>Spécifications d'interopérabilité au format Guide d'implémentation v3.0</td>
+      <td>Spécifications techniques publiées sous forme d'Implementation Guide</td>
     </tr>
   </tbody>
 </table>
+
+<p>Le Document chapeau des APIs Mon espace santé peut être trouvé sur le portail de référencement à l'adresse <a href="https://monespacesante.fr">Référencement éditeurs (monespacesante.fr)</a>.</p>
 
 <h3 id="dépendances">Dépendances</h3>
 
@@ -398,7 +425,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
               </td>
               <td style="text-align:right">&#xA0;
 
-                <a href="specifications_fonctionnelles.html">next&gt;</a>
+                <a href="specifications-techniques.html">next&gt;</a>
 
               </td>
             </tr>
@@ -408,7 +435,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">Agence du Numérique en Santé (ANS) - 2-10 Rue d&#39;Oradour-sur-Glane, 75015 Paris</a>.  Package ans.fhir.fr.mesmesures#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jan 20, 2026 13:17+0000">2026-01-20</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">Agence du Numérique en Santé (ANS) - 2-10 Rue d&#39;Oradour-sur-Glane, 75015 Paris</a>.  Package ans.fhir.fr.mesmesures#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jan 20, 2026 13:37+0000">2026-01-20</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens : <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières</a> |

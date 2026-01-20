@@ -37,7 +37,7 @@ Other representations of profile: [CSV](StructureDefinition-MESObservationWaistC
   "version" : "0.1.0",
   "name" : "MESObservationWaistCircumference",
   "status" : "draft",
-  "date" : "2026-01-20T13:17:20+00:00",
+  "date" : "2026-01-20T13:37:49+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [
     {
