@@ -15,8 +15,9 @@ copyrightYear: 2020+
 releaseLabel: ci-build # le release label doit être conforme au cycle de vie de la doctrine du ci-sis
 jurisdiction: urn:iso:std:iso:3166#FR "FRANCE"
 
-dependencies:
+dependencies: # https://build.fhir.org/ig/FHIR/ig-guidance/versions.html#depending-on-multiple-different-versions-of-the-same-package
   ans.fhir.fr.mesures: 3.0.1
+  mesures@npm:ans.fhir.fr.mesures: 3.1.0
   hl7.fhir.fr.core: 1.1.0
 
 parameters: #Parameters list - https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html
