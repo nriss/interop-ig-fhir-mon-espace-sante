@@ -1,7 +1,7 @@
 # Documentation à propos de cette page : https://fshschool.org/docs/sushi/configuration/
 
-id: ans.fhir.fr.[code]
-canonical: https://interop.esante.gouv.fr/ig/fhir/[code] # the last part of canonical and id must be the same
+id: ans.fhir.fr.mesmesures
+canonical: https://interop.esante.gouv.fr/ig/fhir/mesmesures # the last part of canonical and id must be the same
 name: ExampleIG # Should be an acronym
 title: ANS IG Example
 description: Description du projet
@@ -14,6 +14,10 @@ fhirVersion: 4.0.1
 copyrightYear: 2020+
 releaseLabel: ci-build # le release label doit être conforme au cycle de vie de la doctrine du ci-sis
 jurisdiction: urn:iso:std:iso:3166#FR "FRANCE"
+
+dependencies:
+  ans.fhir.fr.mesures: 3.0.1
+  hl7.fhir.fr.core: 1.1.0
 
 parameters: #Parameters list - https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html
     shownav: 'true'

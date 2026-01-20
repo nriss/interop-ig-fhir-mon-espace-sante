@@ -1,0 +1,456 @@
+
+# A natural language name identifying the code system. This name should be usable as an identifier for the module by machine processing applications such as code generation.
+#: CodeSystem.name
+msgid "CompetenceCS"
+msgstr ""
+
+# A short, descriptive, user-friendly title for the code system.
+#: CodeSystem.title
+msgid "Compétences CodeSystem"
+msgstr ""
+
+# The name of the organization or individual that published the code system.
+#: CodeSystem.publisher
+msgid "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+msgstr ""
+
+# The name of an individual to contact.
+#: ContactDetail.name
+msgid "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+msgstr ""
+
+# A free text natural language description of the code system from a consumer's perspective.
+#: CodeSystem.description
+msgid "Compétences des professionnels de santé."
+msgstr ""
+
+# A representation of the meaning of the code in the system, following the rules of the system.
+#: Coding.display
+msgid "FRANCE"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Anatomie et Cytologie pathologiques humaines"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Anatomie, Cyto patho;Anatomie et Cytologie pathologiques humaines"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Anesthésie-réanimation"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Anesthésie-réanim;Anesthésie-réanimation"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Médecine appliquée aux sports"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Méd appliquée sports;Médecine appliquée aux sports"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Cardiologie"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Cardiologie;Cardiologie"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Chirurgie plastique, reconstructrice et esthétique"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Chir plast reco esth;Chirurgie plastique, reconstructrice et esthétique"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Chirurgie maxillo-faciale;Chirurgie maxillo-faciale;Chirurgie maxillo-faciale"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Chirurgie thoracique"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Chirurgie thoracique;Chirurgie thoracique"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Chirurgie orthopédique"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Chirurgie orthopédique;Chirurgie orthopédique"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Urologie"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Urologie;Urologie"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Dermato-vénéréologie"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Dermato-vénéréologie;Dermato-vénéréologie"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Hémobiologie"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Hémobiologie;Hémobiologie"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Gynécologie médicale et Obstétrique"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Gynéco-médicale, Obstétrique;Gynécologie médicale et Obstétrique"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Gynécologie médicale"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Gynécologie médicale;Gynécologie médicale"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Obstétrique"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Obstétrique;Obstétrique"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Maladies de l'appareil digestif"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Maladies appareil digestif;Maladies de l'appareil digestif"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Néphrologie"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Néphrologie;Néphrologie"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Médecine exotique"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Médecine exotique;Médecine exotique"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Allergologie"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Allergologie;Allergologie"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Angéiologie"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Angéiologie;Angéiologie"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Cancérologie"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Cancérologie;Cancérologie"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Diabétologie-nutrition"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Diabéto-nutrition;Diabétologie-nutrition"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Endocrinologie"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Endocrinologie;Endocrinologie"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Maladies du sang"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Maladies du sang;Maladies du sang"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Réanimation"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Réanimation;Réanimation"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Médecine légale"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Médecine légale;Médecine légale"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Médecine du travail"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Médecine du travail;Médecine du travail"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Neurologie"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Neurologie;Neurologie"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Neuro-chirurgie"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Neuro-chirurgie;Neuro-chirurgie"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Neuro-psychiatrie"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Neuro-psychiatrie;Neuro-psychiatrie"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Pédiatrie"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Pédiatrie;Pédiatrie"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Phoniatrie"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Phoniatrie;Phoniatrie"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Pneumologie"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Pneumologie;Pneumologie"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Psychiatrie"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Psychiatrie;Psychiatrie"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Psychiatrie, option enfant et adolescent"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Psychiatrie, opt enfant et ado;Psychiatrie, option enfant et adolescent"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Médecine physique et de réadaptation"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Médecine physique, réadapt;Médecine physique et de réadaptation"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Rhumatologie"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Rhumatologie;Rhumatologie"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Chirurgie pédiatrique"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Chirurgie pédiatrique;Chirurgie pédiatrique"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Médecine nucléaire"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Médecine nucléaire;Médecine nucléaire"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Médecine thermale"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Médecine thermale;Médecine thermale"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Génétique médicale"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Génétique médicale;Génétique médicale"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Endocrinologie et Maladies métaboliques"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Endocrin, Maladies métaboliq;Endocrinologie et Maladies métaboliques"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Orthopédie dento-maxillo-faciale"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Orthopédie dento-maxilo-fac;Orthopédie dento-maxillo-faciale"
+msgstr ""
+
+# A human readable string that is the recommended default way to present this concept to a user.
+#: CodeSystem.concept.display
+msgid "Chirurgie de la face et du cou"
+msgstr ""
+
+# The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
+#: CodeSystem.concept.definition
+msgid "Chirurgie face et cou;Chirurgie de la face et du cou"
+msgstr ""
+

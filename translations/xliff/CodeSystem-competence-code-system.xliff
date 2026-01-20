@@ -1,0 +1,645 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="fr-FR" id="CodeSystem-competence-code-system" original="Resource CodeSystem-competence-code-system" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.name">
+             <notes>
+               <note id="n1">A natural language name identifying the code system. This name should be usable as an identifier for the module by machine processing applications such as code generation.</note>
+             </notes>
+        <source>CompetenceCS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.title">
+             <notes>
+               <note id="n1">A short, descriptive, user-friendly title for the code system.</note>
+             </notes>
+        <source>Compétences CodeSystem</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.publisher">
+             <notes>
+               <note id="n1">The name of the organization or individual that published the code system.</note>
+             </notes>
+        <source>Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">The name of an individual to contact.</note>
+             </notes>
+        <source>Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.description">
+             <notes>
+               <note id="n1">A free text natural language description of the code system from a consumer's perspective.</note>
+             </notes>
+        <source>Compétences des professionnels de santé.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="Coding.display">
+             <notes>
+               <note id="n1">A representation of the meaning of the code in the system, following the rules of the system.</note>
+             </notes>
+        <source>FRANCE</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Anatomie et Cytologie pathologiques humaines</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Anatomie, Cyto patho;Anatomie et Cytologie pathologiques humaines</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Anesthésie-réanimation</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Anesthésie-réanim;Anesthésie-réanimation</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Médecine appliquée aux sports</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Méd appliquée sports;Médecine appliquée aux sports</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Cardiologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Cardiologie;Cardiologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Chirurgie plastique, reconstructrice et esthétique</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Chir plast reco esth;Chirurgie plastique, reconstructrice et esthétique</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Chirurgie maxillo-faciale;Chirurgie maxillo-faciale;Chirurgie maxillo-faciale</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Chirurgie thoracique</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Chirurgie thoracique;Chirurgie thoracique</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Chirurgie orthopédique</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Chirurgie orthopédique;Chirurgie orthopédique</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Urologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Urologie;Urologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Dermato-vénéréologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Dermato-vénéréologie;Dermato-vénéréologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Hémobiologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Hémobiologie;Hémobiologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Gynécologie médicale et Obstétrique</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Gynéco-médicale, Obstétrique;Gynécologie médicale et Obstétrique</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Gynécologie médicale</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Gynécologie médicale;Gynécologie médicale</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Obstétrique</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Obstétrique;Obstétrique</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Maladies de l'appareil digestif</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Maladies appareil digestif;Maladies de l'appareil digestif</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Néphrologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Néphrologie;Néphrologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Médecine exotique</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Médecine exotique;Médecine exotique</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Allergologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Allergologie;Allergologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Angéiologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Angéiologie;Angéiologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Cancérologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Cancérologie;Cancérologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Diabétologie-nutrition</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Diabéto-nutrition;Diabétologie-nutrition</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Endocrinologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Endocrinologie;Endocrinologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Maladies du sang</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Maladies du sang;Maladies du sang</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Réanimation</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Réanimation;Réanimation</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Médecine légale</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Médecine légale;Médecine légale</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Médecine du travail</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Médecine du travail;Médecine du travail</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Neurologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Neurologie;Neurologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Neuro-chirurgie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Neuro-chirurgie;Neuro-chirurgie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Neuro-psychiatrie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Neuro-psychiatrie;Neuro-psychiatrie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Pédiatrie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Pédiatrie;Pédiatrie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Phoniatrie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Phoniatrie;Phoniatrie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Pneumologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Pneumologie;Pneumologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Psychiatrie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Psychiatrie;Psychiatrie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Psychiatrie, option enfant et adolescent</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Psychiatrie, opt enfant et ado;Psychiatrie, option enfant et adolescent</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Médecine physique et de réadaptation</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Médecine physique, réadapt;Médecine physique et de réadaptation</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Rhumatologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Rhumatologie;Rhumatologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Chirurgie pédiatrique</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Chirurgie pédiatrique;Chirurgie pédiatrique</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Médecine nucléaire</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Médecine nucléaire;Médecine nucléaire</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Médecine thermale</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Médecine thermale;Médecine thermale</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Génétique médicale</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Génétique médicale;Génétique médicale</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Endocrinologie et Maladies métaboliques</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Endocrin, Maladies métaboliq;Endocrinologie et Maladies métaboliques</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Orthopédie dento-maxillo-faciale</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Orthopédie dento-maxilo-fac;Orthopédie dento-maxillo-faciale</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Chirurgie de la face et du cou</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Chirurgie face et cou;Chirurgie de la face et du cou</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

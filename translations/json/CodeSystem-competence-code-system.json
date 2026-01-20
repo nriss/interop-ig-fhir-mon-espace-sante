@@ -1,0 +1,557 @@
+{
+  "id" : "CodeSystem-competence-code-system",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "fr-FR",
+      "entries" : [
+        {
+          "id" : "CodeSystem.name",
+          "context" : "A natural language name identifying the code system. This name should be usable as an identifier for the module by machine processing applications such as code generation.",
+          "source" : "CompetenceCS",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.title",
+          "context" : "A short, descriptive, user-friendly title for the code system.",
+          "source" : "Compétences CodeSystem",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.publisher",
+          "context" : "The name of the organization or individual that published the code system.",
+          "source" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+          "target" : null
+        },
+        {
+          "id" : "ContactDetail.name",
+          "context" : "The name of an individual to contact.",
+          "source" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.description",
+          "context" : "A free text natural language description of the code system from a consumer's perspective.",
+          "source" : "Compétences des professionnels de santé.",
+          "target" : null
+        },
+        {
+          "id" : "Coding.display",
+          "context" : "A representation of the meaning of the code in the system, following the rules of the system.",
+          "source" : "FRANCE",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Anatomie et Cytologie pathologiques humaines",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Anatomie, Cyto patho;Anatomie et Cytologie pathologiques humaines",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Anesthésie-réanimation",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Anesthésie-réanim;Anesthésie-réanimation",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Médecine appliquée aux sports",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Méd appliquée sports;Médecine appliquée aux sports",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Cardiologie",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Cardiologie;Cardiologie",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Chirurgie plastique, reconstructrice et esthétique",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Chir plast reco esth;Chirurgie plastique, reconstructrice et esthétique",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Chirurgie maxillo-faciale;Chirurgie maxillo-faciale;Chirurgie maxillo-faciale",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Chirurgie thoracique",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Chirurgie thoracique;Chirurgie thoracique",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Chirurgie orthopédique",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Chirurgie orthopédique;Chirurgie orthopédique",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Urologie",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Urologie;Urologie",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Dermato-vénéréologie",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Dermato-vénéréologie;Dermato-vénéréologie",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Hémobiologie",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Hémobiologie;Hémobiologie",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Gynécologie médicale et Obstétrique",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Gynéco-médicale, Obstétrique;Gynécologie médicale et Obstétrique",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Gynécologie médicale",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Gynécologie médicale;Gynécologie médicale",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Obstétrique",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Obstétrique;Obstétrique",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Maladies de l'appareil digestif",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Maladies appareil digestif;Maladies de l'appareil digestif",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Néphrologie",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Néphrologie;Néphrologie",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Médecine exotique",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Médecine exotique;Médecine exotique",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Allergologie",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Allergologie;Allergologie",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Angéiologie",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Angéiologie;Angéiologie",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Cancérologie",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Cancérologie;Cancérologie",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Diabétologie-nutrition",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Diabéto-nutrition;Diabétologie-nutrition",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Endocrinologie",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Endocrinologie;Endocrinologie",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Maladies du sang",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Maladies du sang;Maladies du sang",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Réanimation",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Réanimation;Réanimation",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Médecine légale",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Médecine légale;Médecine légale",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Médecine du travail",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Médecine du travail;Médecine du travail",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Neurologie",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Neurologie;Neurologie",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Neuro-chirurgie",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Neuro-chirurgie;Neuro-chirurgie",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Neuro-psychiatrie",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Neuro-psychiatrie;Neuro-psychiatrie",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Pédiatrie",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Pédiatrie;Pédiatrie",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Phoniatrie",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Phoniatrie;Phoniatrie",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Pneumologie",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Pneumologie;Pneumologie",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Psychiatrie",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Psychiatrie;Psychiatrie",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Psychiatrie, option enfant et adolescent",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Psychiatrie, opt enfant et ado;Psychiatrie, option enfant et adolescent",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Médecine physique et de réadaptation",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Médecine physique, réadapt;Médecine physique et de réadaptation",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Rhumatologie",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Rhumatologie;Rhumatologie",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Chirurgie pédiatrique",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Chirurgie pédiatrique;Chirurgie pédiatrique",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Médecine nucléaire",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Médecine nucléaire;Médecine nucléaire",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Médecine thermale",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Médecine thermale;Médecine thermale",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Génétique médicale",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Génétique médicale;Génétique médicale",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Endocrinologie et Maladies métaboliques",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Endocrin, Maladies métaboliq;Endocrinologie et Maladies métaboliques",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Orthopédie dento-maxillo-faciale",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Orthopédie dento-maxilo-fac;Orthopédie dento-maxillo-faciale",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "Chirurgie de la face et du cou",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.definition",
+          "context" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
+          "source" : "Chirurgie face et cou;Chirurgie de la face et du cou",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

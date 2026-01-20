@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="fr-FR" id="CodeSystem-type-carte-code-system" original="Resource CodeSystem-type-carte-code-system" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="CodeSystem-type-carte-code-system" resname="CodeSystem.name">
+             <notes>
+               <note id="n1">A natural language name identifying the code system. This name should be usable as an identifier for the module by machine processing applications such as code generation.</note>
+             </notes>
+        <source>TypeCarteCS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-type-carte-code-system" resname="CodeSystem.title">
+             <notes>
+               <note id="n1">A short, descriptive, user-friendly title for the code system.</note>
+             </notes>
+        <source>Type de carte</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-type-carte-code-system" resname="CodeSystem.publisher">
+             <notes>
+               <note id="n1">The name of the organization or individual that published the code system.</note>
+             </notes>
+        <source>Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-type-carte-code-system" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">The name of an individual to contact.</note>
+             </notes>
+        <source>Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-type-carte-code-system" resname="CodeSystem.description">
+             <notes>
+               <note id="n1">A free text natural language description of the code system from a consumer's perspective.</note>
+             </notes>
+        <source>Type de carte professionnelle et personnelle.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-type-carte-code-system" resname="Coding.display">
+             <notes>
+               <note id="n1">A representation of the meaning of the code in the system, following the rules of the system.</note>
+             </notes>
+        <source>FRANCE</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-type-carte-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Carte de Personnel Autorisé</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-type-carte-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>La carte d'un personnel autorisé (CDA/CPA)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-type-carte-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Carte de Personnel d'Etablissement</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-type-carte-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>La Carte de Personnel d'Etablissement de santé (CDE/CPE).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-type-carte-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Carte de Professionnel de Santé en Formation</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-type-carte-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>La Carte de Professionnel de Santé en Formation (CPF).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-type-carte-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Carte de Professionnel de Santé</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-type-carte-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>La Carte de Professionnel de Santé (CPS).</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
