@@ -39,7 +39,7 @@ parameters: #Parameters list - https://build.fhir.org/ig/FHIR/fhir-tools-ig/Code
 pages:
     index.md:
         title: Accueil
-    specifications_techniques.md:
+    specifications-techniques.md:
         title: Spécifications techniques
     change-log.md:
         title: Historique des versions
