@@ -12,6 +12,7 @@
 {% endif %}
 
 
+
 {% if site.data.info.releaselabel == 'public-comment' %}
 <div style="width: 65%">
 <blockquote class="stu-note">
@@ -24,12 +25,7 @@
 </div>
 {% endif %}
 
-
-<!--  A décommenter si CI-SIS
-<div class="figure">
-    <img src="ci-sis-logo.png" alt="CI-SIS" title="Logo du CI-SIS" style="width:100%;">
-</div>
--->
+Ce guide d'implémentation est un test pour mettre MonEspaceSanté au format IG, et également un test pour mettre plusieurs versions du même package en dépendance.
 
 ### Introduction
 
