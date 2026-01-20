@@ -15,6 +15,8 @@
 
 > Cet Implementation Guide n'est pas la version courante, il s'agit de la version en intégration continue soumise à des changements fréquents uniquement destinée à suivre les travaux en cours. La version courante sera accessible via l'URL canonique suite à la première release : http://interop.esante.gouv.fr/ig/fhir/[code - ig]
 
+Ce guide d'implémentation est un test pour mettre MonEspaceSanté au format IG, et également un test pour mettre plusieurs versions du même package en dépendance.
+
 ### Introduction
 
 Définir ici de quoi parle l'IG (En termes non expert, compréhensible par un patient). Rajouter également les détails techniques sur le contexte et le besoin de cet IG
@@ -78,7 +80,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
   "name" : "ExampleIG",
   "title" : "ANS IG Example",
   "status" : "draft",
-  "date" : "2026-01-20T13:10:56+00:00",
+  "date" : "2026-01-20T13:17:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [
     {
