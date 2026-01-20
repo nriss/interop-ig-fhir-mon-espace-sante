@@ -54,8 +54,6 @@ menu:
     Accueil: index.html
     Volume 1 - Etude fonctionnelle: index.html
     Volume 2 - Spécifications techniques: specifications-techniques.html
-        Flux 01: st_flux1.html
-        Flux 02: st_flux2.html
     Ressources de conformité: artifacts.html
     Autres ressources:
         Sécurité: securite.html
