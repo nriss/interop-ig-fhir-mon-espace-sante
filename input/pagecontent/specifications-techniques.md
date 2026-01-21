@@ -1,16 +1,16 @@
-# Spécifications de l'API Mesures de santé de Mon Espace Santé
+### Spécifications de l'API Mesures de santé de Mon Espace Santé
 
 **Version 1.5.2**
 **Date : 21/07/2023**
 
-## Documents référencés
+#### Documents référencés
 
 | Nom | Description |
 |-----|-------------|
 | Volet mesures de santé v1.2 | Spécifications techniques d'alimentation et de consultation des mesures de santé |
 | Spécifications d'interopérabilité au format Guide d'implémentation v3.0 | Spécifications techniques publiées sous forme d'Implementation Guide |
 
-## Introduction à la documentation technique d'interopérabilité avec Mon espace santé
+#### Introduction à la documentation technique d'interopérabilité avec Mon espace santé
 
 La documentation technique de Mon espace santé ne s'applique qu'aux services ayant ou visant à avoir des échanges de données avec MES.
 
@@ -25,7 +25,7 @@ Ce document comprend :
 
 Le Document chapeau des APIs Mon espace santé peut être trouvé sur le portail de référencement à l'adresse [Référencement éditeurs (monespacesante.fr)](https://monespacesante.fr).
 
-## 1. Objectif du document
+#### 1. Objectif du document
 
 Les interactions entre les partenaires et Mon Espace Santé (MES) s'organisent en trois phases préliminaires aux échanges :
 
@@ -35,7 +35,7 @@ Les interactions entre les partenaires et Mon Espace Santé (MES) s'organisent e
 
 Cette documentation de référence définit comment interagir avec l'API Mesures de santé pour les partenaires.
 
-## 2. Description des flux mesures
+#### 2. Description des flux mesures
 
 L'objectif de cette API mesures est de permettre aux systèmes partenaires interfacés avec MES de consulter les mesures d'un utilisateur ou d'en écrire afin de proposer à l'utilisateur une vue à jour de ses mesures de santé.
 
@@ -45,7 +45,7 @@ Ainsi, les flux décrits ci-dessous permettent :
 - L'alimentation de mesures prises via des services tiers
 - La consultation des mesures MES (créés par des services tiers ou saisis manuellement via l'IHM de MES)
 
-### Dépendances
+##### Dépendances
 
 Ces profils ont comme dépendance les packages suivants :
 
@@ -54,9 +54,9 @@ Ces profils ont comme dépendance les packages suivants :
 | ans.cisis.fhir.r4 | 2.0.0 | https://simplifier.net/packages/ans.cisis.fhir.r4/2.0.0 |
 | HL7.fhir.uv.phd | 1.0.0 | https://simplifier.net/packages/hl7.fhir.uv.phd/1.0.0/files/596424 |
 
-### 2.1. Ressources exploitées
+##### 2.1. Ressources exploitées
 
-#### 2.1.1. Observation
+###### 2.1.1. Observation
 
 Les profils MES des objets "Observation" détaillés dans le volet des constantes de santé ont les champs **requis** suivants par défaut :
 
@@ -80,7 +80,7 @@ La ressource Observation permet d'indiquer les résultats de deux manières :
 
 Les profils FHIR des mesures de santé gérées par MES, sont définis avec l'ANS à travers le volet mesures de santé du CI-SIS.
 
-##### Profils FHIR des mesures de santé
+####### Profils FHIR des mesures de santé
 
 | Type de mesure | Nom du profil | Urls canoniques |
 |----------------|---------------|-----------------|
@@ -96,7 +96,7 @@ Les profils FHIR des mesures de santé gérées par MES, sont définis avec l'AN
 | Tour de tête | MESObservationHeadCircumference | https://fhir.monespacesante.fr/ref/mesure/StructureDefinition/mes-observation-headcircumference |
 | Fréquence cardiaque | MESObservationHeartrate | https://fhir.monespacesante.fr/ref/mesure/StructureDefinition/mes-observation-heartrate |
 
-##### Extensions
+####### Extensions
 
 Les extensions sont publiées sur l'Implementation Guide ANS :
 https://interop.esante.gouv.fr/ig/fhir/mesures/ImplementationGuide/ans.fhir.fr.mesures
@@ -108,7 +108,7 @@ https://interop.esante.gouv.fr/ig/fhir/mesures/ImplementationGuide/ans.fhir.fr.m
 | MESNumberOfDays | https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-number-of-days | Nombre de jours. Utilisé pour les mesures du taux de glucose interstitiel et l'index de gestion de glycémie. |
 | MESDiabetisType | https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-diabetis-type | Type de diabète. Utilisé pour déterminer le type de diabète de l'usager. |
 
-#### 2.1.2. Device (profil PhdDevice)
+###### 2.1.2. Device (profil PhdDevice)
 
 Le profil "PhdDevice" s'utilise lorsque la mesure est faite par un objet connecté conforme aux normes "ISO / IEEE 11073-20601" pour les dispositifs de santé personnels (PHD – Personal Health) tels que les balances, les tensiomètres, les lecteurs de glycémie, etc.
 
@@ -118,7 +118,7 @@ https://hl7.org/fhir/uv/phd/PhdDeviceProfile.html
 Les détails des champs du profil sont disponibles en suivant l'adresse suivante :
 https://simplifier.net/packages/hl7.fhir.uv.phd/1.0.0/files/596424
 
-##### Structure JSON d'un Device PHD (champs requis en gras)
+####### Structure JSON d'un Device PHD (champs requis en gras)
 
 ```json
 {
@@ -176,7 +176,7 @@ https://simplifier.net/packages/hl7.fhir.uv.phd/1.0.0/files/596424
 }
 ```
 
-##### Codes Device
+####### Codes Device
 
 À noter les deux codes indiqués ci-dessus :
 
@@ -194,7 +194,7 @@ Le code de partition "8" correspondant à "INFRA".
 Par exemple pour une balance "Weight Scale" :
 `8 x 2^16 + 4111 = 528399`
 
-##### Codes MDC des spécialisations
+####### Codes MDC des spécialisations
 
 | Specialization | Code MDC (Code partition::Term code) | Code du champs JSON |
 |----------------|-------------------------------------|---------------------|
@@ -219,13 +219,13 @@ Par exemple pour une balance "Weight Scale" :
 
 Cette liste d'exemples est non-exhaustive et provient des spécifications FHIR. Obtenir d'autres codes MDC et donc d'autres codes de champs nécessite l'acquisition de la norme ISO/IEEE 11073-10101:2020.
 
-### 2.2. Le flux d'alimentation de l'API mesures
+##### 2.2. Le flux d'alimentation de l'API mesures
 
 Le flux d'alimentation unitaire d'une constante reprend la logique de la transaction "PCH 01" (Communicate FHIR PHD data) du profil "IHE POU" (Personal Health Device Observation Upload). Ce profil et cette transaction sont détaillés dans la documentation IHE.
 
 Ce profil se base sur l'interaction "transaction" de l'API REST de FHIR. Il s'agit d'une requête http POST dont le corps est une ressource "Bundle" de type "transaction".
 
-#### 2.2.1. Contenu de la requête d'alimentation
+###### 2.2.1. Contenu de la requête d'alimentation
 
 Le corps de cette requête contient un "Bundle" qui peut contenir jusqu'à deux ressources :
 
@@ -234,7 +234,7 @@ Le corps de cette requête contient un "Bundle" qui peut contenir jusqu'à deux 
 
 La ressource Device est optionnelle pour permettre l'alimentation d'une observation non issue d'un appareil de prise de mesure. Si un device est à l'origine de l'observation alors il doit être présent dans le bundle d'alimentation. La suite de cette documentation prend en compte l'hypothèse d'une alimentation d'observation avec Device.
 
-#### 2.2.2. Structure de la requête d'alimentation
+###### 2.2.2. Structure de la requête d'alimentation
 
 Les deux ressources Observation et Device sont incorporées dans la liste ("array") de Bundle.entry. Chaque élément de cette liste est un objet contenant 2 sous-objets : une ressource et la requête http associée.
 
@@ -297,11 +297,11 @@ L'attribut ifNoneExist contenant l'oid du device (« sous oid » de la solution 
 - Si le device existe déjà dans l'entrepôt de l'ENS identifié par le couple oid/identifier, il n'est pas recréé (code 200 Success retourné).
 - S'il n'existe pas, il sera créé (code 201 Created retourné) avec comme identifiant unique le couple oid + identifier.
 
-#### 2.2.3. Référence de la ressource Observation vers la ressource Device (Observation.device)
+###### 2.2.3. Référence de la ressource Observation vers la ressource Device (Observation.device)
 
 La ressource Device doit être référencée dans l'attribut Observation.device.reference. Ainsi, il doit contenir le préfixe « Device/ » et le Device.id doit contenir uniquement l'uuid.
 
-#### 2.2.4. L'attribut « Observation.meta.source »
+###### 2.2.4. L'attribut « Observation.meta.source »
 
 Le système source de la donnée est indiqué dans le champ meta de l'observation. Le champ source contient l'oid de la solution à l'origine de l'alimentation de l'observation.
 
@@ -309,11 +309,11 @@ Ce champ est facultatif :
 - S'il est envoyé par la solution lors de la demande d'alimentation, il est validé par MES : il doit commencer par l'oid de la solution authentifiée sur l'API. Ceci permet d'indiquer des sous-oid de la solution principale.
 - S'il n'est pas fourni, l'oid de la solution authentifiée sur l'API est positionné par MES.
 
-#### 2.2.5. L'attribut « meta.profile »
+###### 2.2.5. L'attribut « meta.profile »
 
 L'Observation et le Device doivent renseigner l'url canonique du profil dans le champs meta.profile. Cette information est nécessaire, elle permet de valider la conformance des ressources Device avec le profil PhdDevice ainsi que celle des ressources Observation avec l'un des 11 profils des mesures de santé.
 
-#### 2.2.6. Cas particulier de la glycémie
+###### 2.2.6. Cas particulier de la glycémie
 
 Le profil ENS_ObservationGlucose permet de gérer 4 types d'indicateurs de glycémie :
 - Le taux de glucose sanguin, mesuré en mg/dl
@@ -333,7 +333,7 @@ En fonction du type de glycémie, des contrôles métiers sur les extensions ENS
 - ❌ Si une extension non autorisée est présente, l'observation sera considérée comme étant invalide.
 - ✅ Si une extension obligatoire est absente, l'observation sera considérée comme étant invalide. Le commentaire reste facultatif dans tous les cas.
 
-#### 2.2.7. Exemple d'appel
+###### 2.2.7. Exemple d'appel
 
 Ci-dessous, un exemple de "Bundle" complet qui doit être envoyé dans le corps de la requête d'alimentation. Ce Bundle contient 2 ressources dans l'attribut "entry" :
 
@@ -519,7 +519,7 @@ Ainsi, dans le cas du profil MESFrObservationBp, l'usage de value[x] est interdi
 }
 ```
 
-#### 2.2.8. Réponse à la requête d'alimentation
+###### 2.2.8. Réponse à la requête d'alimentation
 
 En cas de succès, le code http **200 OK** est retourné.
 
@@ -553,7 +553,7 @@ Voici un exemple de retour à la suite de la création d'une Observation et d'un
 }
 ```
 
-##### Codes d'erreur
+####### Codes d'erreur
 
 Dans le cas d'une erreur rencontrée, un code erreur HTTP est retourné :
 
@@ -566,7 +566,7 @@ Dans le cas d'une erreur rencontrée, un code erreur HTTP est retourné :
 | 400 | Bad Request | No bundle provided. | |
 | 409 | Conflict | HTTP code 409 :OID conflict between the one from id_token and the one in the system -> OID different between id_token and ecosystem | |
 
-##### OperationOutcome
+####### OperationOutcome
 
 Le corps de la réponse contient une ressource Bundle de type « transaction-response ». Cette ressource contient le détail des erreurs et avertissements résultants du traitement de la requête transmise à MES.
 
@@ -580,7 +580,7 @@ En cas d'erreur, une ressource OperationOutcome est renvoyée avec le code HTTP 
 | 2 | Code | 1..1 | Code | Type d'erreur (http://www.hl7.org/fhir/valueset-issue-type.html) |
 | 2 | Diagnostics | 0..1 | String | Informations complémentaires sur l'erreur |
 
-##### Liste des erreurs de validation
+####### Liste des erreurs de validation
 
 | Code HTTP | Message | Outcome type | Outcome diagnostic | Précision |
 |-----------|---------|--------------|-------------------|-----------|
@@ -600,11 +600,11 @@ En cas d'erreur, une ressource OperationOutcome est renvoyée avec le code HTTP 
 | 422 | Observation resource not valid. | INCOMPLETE | Observation.extension.numberOfDays is mandatory. | Se référer au cas particulier de la glycémie |
 | 422 | Device resource not valid. | INVALID | Device must provide meta.profile value. | |
 
-### 2.3. Le flux de recherche de l'API mesures
+##### 2.3. Le flux de recherche de l'API mesures
 
 L'API de lecture des observations consiste en une requête de type Search qui suit la spécification FHIR.
 
-#### 2.3.1. Modes de recherche
+###### 2.3.1. Modes de recherche
 
 Deux modes de recherche sont mis à disposition. Pour faciliter la suite de la documentation, nous les appellerons « all » et « last ».
 
@@ -612,7 +612,7 @@ La recherche **« all »** recherche toutes les observations pour un code mesure
 
 La recherche **« last »** permet de récupérer la dernière observation pour un code mesures (Observation.code) donné.
 
-##### 2.3.1.1. Paramètres d'appel de l'opération Search
+####### 2.3.1.1. Paramètres d'appel de l'opération Search
 
 | Nom du paramètre | Obligatoire/facultatif | Valeur | Commentaire |
 |------------------|------------------------|--------|-------------|
@@ -624,9 +624,9 @@ La recherche **« last »** permet de récupérer la dernière observation pour 
 | _count | Facultatif pour « all »<br>Obligatoire pour « last » | Nombre d'observations par page | Maximum : 100. Valeur par défaut : 50<br>L'inclusion ou non des devices n'a pas d'impact sur ce compteur. |
 | _sort | Obligatoire pour « last » | Doit toujours être égal à « -date » | |
 
-#### 2.3.2. Exemples d'appel
+###### 2.3.2. Exemples d'appel
 
-##### Recherche « all » :
+####### Recherche « all » :
 
 ```
 https://<baseUrl>/fhir/Observation?subject.identifier={{AssignAuth|idPe}}&code=29463-7&date=gt2022-09-04&date=lt2022-09-23&_offset=0&_count=2&_include=Observation.device
@@ -638,7 +638,7 @@ Cette requête permet de récupérer, pour l'usager ayant l'identifiant Patient 
 - Les observations Poids ayant une effectiveDate entre le 04/09/2022 et le 23/09/2022
 - Les devices liés aux observations remontées (si un même device est rattaché à plusieurs observations, il ne sera présent qu'une fois dans la réponse)
 
-##### Requête « last » :
+####### Requête « last » :
 
 ```
 https://<baseUrl>/fhir/Observation?subject.identifier={{idPe}}&code=29463-7&_sort=-date&_count=1&_include=Observation.device
@@ -648,7 +648,7 @@ Elle permet de récupérer, pour l'usager ayant l'identifiant Patient Externe «
 - La dernière observation Poids
 - Le device associé à l'observation remontée
 
-#### 2.3.3. Réponse à la requête de recherche
+###### 2.3.3. Réponse à la requête de recherche
 
 Quel que soit le mode de recherche, le corps de la réponse contient un bundle de type searchset avec pagination (présence des liens previous/self/next pour naviguer dans la pagination).
 
@@ -788,7 +788,7 @@ Exemple de retour de la première page de 2 observations d'une recherche contena
 }
 ```
 
-##### Codes d'erreur
+####### Codes d'erreur
 
 Dans le cas d'une erreur rencontrée, un code erreur HTTP est retourné :
 
