@@ -2160,4 +2160,4 @@ Generic: line 0, col 0, Warning - The HTML fragment 'expansion-params.xhtml' is 
 /home/runner/work/interop-ig-fhir-mon-espace-sante/interop-ig-fhir-mon-espace-sante/igSource/fsh-generated/resources/StructureDefinition-MESObservationWaistCircumference.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
 
 err = 7, warn = 70, info = 2074
-IG Publisher Version: 2.0.29
+IG Publisher Version: 2.0.30

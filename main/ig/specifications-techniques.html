@@ -189,30 +189,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
     <p><!-- white space is critical inside of capture --></p>
-<div class="markdown-toc">
-<ul id="markdown-toc">
-  <li><a href="#spécifications-de-lapi-mesures-de-santé-de-mon-espace-santé" id="markdown-toc-spécifications-de-lapi-mesures-de-santé-de-mon-espace-santé">Spécifications de l'API Mesures de santé de Mon Espace Santé</a>    <ul>
-      <li><a href="#documents-référencés" id="markdown-toc-documents-référencés">Documents référencés</a></li>
-      <li><a href="#introduction-à-la-documentation-technique-dinteropérabilité-avec-mon-espace-santé" id="markdown-toc-introduction-à-la-documentation-technique-dinteropérabilité-avec-mon-espace-santé">Introduction à la documentation technique d'interopérabilité avec Mon espace santé</a></li>
-      <li><a href="#1-objectif-du-document" id="markdown-toc-1-objectif-du-document">1. Objectif du document</a></li>
-      <li><a href="#2-description-des-flux-mesures" id="markdown-toc-2-description-des-flux-mesures">2. Description des flux mesures</a>        <ul>
-          <li><a href="#dépendances" id="markdown-toc-dépendances">Dépendances</a></li>
-          <li><a href="#21-ressources-exploitées" id="markdown-toc-21-ressources-exploitées">2.1. Ressources exploitées</a></li>
-          <li><a href="#22-le-flux-dalimentation-de-lapi-mesures" id="markdown-toc-22-le-flux-dalimentation-de-lapi-mesures">2.2. Le flux d'alimentation de l'API mesures</a></li>
-          <li><a href="#23-le-flux-de-recherche-de-lapi-mesures" id="markdown-toc-23-le-flux-de-recherche-de-lapi-mesures">2.3. Le flux de recherche de l'API mesures</a></li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ul>
-
+<div>
+<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
 </div>
-<h1 id="spécifications-de-lapi-mesures-de-santé-de-mon-espace-santé">Spécifications de l'API Mesures de santé de Mon Espace Santé</h1>
+<h3 id="spécifications-de-lapi-mesures-de-santé-de-mon-espace-santé">Spécifications de l'API Mesures de santé de Mon Espace Santé</h3>
 
 <p><strong>Version 1.5.2</strong>
 <strong>Date : 21/07/2023</strong></p>
 
-<h2 id="documents-référencés">Documents référencés</h2>
+<h4 id="documents-référencés">Documents référencés</h4>
 
 <table>
   <thead>
@@ -233,7 +218,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </tbody>
 </table>
 
-<h2 id="introduction-à-la-documentation-technique-dinteropérabilité-avec-mon-espace-santé">Introduction à la documentation technique d'interopérabilité avec Mon espace santé</h2>
+<h4 id="introduction-à-la-documentation-technique-dinteropérabilité-avec-mon-espace-santé">Introduction à la documentation technique d'interopérabilité avec Mon espace santé</h4>
 
 <p>La documentation technique de Mon espace santé ne s'applique qu'aux services ayant ou visant à avoir des échanges de données avec MES.</p>
 
@@ -250,7 +235,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>Le Document chapeau des APIs Mon espace santé peut être trouvé sur le portail de référencement à l'adresse <a href="https://monespacesante.fr">Référencement éditeurs (monespacesante.fr)</a>.</p>
 
-<h2 id="1-objectif-du-document">1. Objectif du document</h2>
+<h4 id="1-objectif-du-document">1. Objectif du document</h4>
 
 <p>Les interactions entre les partenaires et Mon Espace Santé (MES) s'organisent en trois phases préliminaires aux échanges :</p>
 
@@ -262,7 +247,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>Cette documentation de référence définit comment interagir avec l'API Mesures de santé pour les partenaires.</p>
 
-<h2 id="2-description-des-flux-mesures">2. Description des flux mesures</h2>
+<h4 id="2-description-des-flux-mesures">2. Description des flux mesures</h4>
 
 <p>L'objectif de cette API mesures est de permettre aux systèmes partenaires interfacés avec MES de consulter les mesures d'un utilisateur ou d'en écrire afin de proposer à l'utilisateur une vue à jour de ses mesures de santé.</p>
 
@@ -274,7 +259,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <li>La consultation des mesures MES (créés par des services tiers ou saisis manuellement via l'IHM de MES)</li>
 </ul>
 
-<h3 id="dépendances">Dépendances</h3>
+<h5 id="dépendances">Dépendances</h5>
 
 <p>Ces profils ont comme dépendance les packages suivants :</p>
 
@@ -300,9 +285,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </tbody>
 </table>
 
-<h3 id="21-ressources-exploitées">2.1. Ressources exploitées</h3>
+<h5 id="21-ressources-exploitées">2.1. Ressources exploitées</h5>
 
-<h4 id="211-observation">2.1.1. Observation</h4>
+<h6 id="211-observation">2.1.1. Observation</h6>
 
 <p>Les profils MES des objets "Observation" détaillés dans le volet des constantes de santé ont les champs <strong>requis</strong> suivants par défaut :</p>
 
@@ -345,7 +330,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>Les profils FHIR des mesures de santé gérées par MES, sont définis avec l'ANS à travers le volet mesures de santé du CI-SIS.</p>
 
-<h5 id="profils-fhir-des-mesures-de-santé">Profils FHIR des mesures de santé</h5>
+<p>####### Profils FHIR des mesures de santé</p>
 
 <table>
   <thead>
@@ -414,7 +399,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </tbody>
 </table>
 
-<h5 id="extensions">Extensions</h5>
+<p>####### Extensions</p>
 
 <p>Les extensions sont publiées sur l'Implementation Guide ANS :
 https://interop.esante.gouv.fr/ig/fhir/mesures/ImplementationGuide/ans.fhir.fr.mesures</p>
@@ -451,7 +436,7 @@ https://interop.esante.gouv.fr/ig/fhir/mesures/ImplementationGuide/ans.fhir.fr.m
   </tbody>
 </table>
 
-<h4 id="212-device-profil-phddevice">2.1.2. Device (profil PhdDevice)</h4>
+<h6 id="212-device-profil-phddevice">2.1.2. Device (profil PhdDevice)</h6>
 
 <p>Le profil "PhdDevice" s'utilise lorsque la mesure est faite par un objet connecté conforme aux normes "ISO / IEEE 11073-20601" pour les dispositifs de santé personnels (PHD – Personal Health) tels que les balances, les tensiomètres, les lecteurs de glycémie, etc.</p>
 
@@ -461,7 +446,7 @@ https://hl7.org/fhir/uv/phd/PhdDeviceProfile.html</p>
 <p>Les détails des champs du profil sont disponibles en suivant l'adresse suivante :
 https://simplifier.net/packages/hl7.fhir.uv.phd/1.0.0/files/596424</p>
 
-<h5 id="structure-json-dun-device-phd-champs-requis-en-gras">Structure JSON d'un Device PHD (champs requis en gras)</h5>
+<p>####### Structure JSON d'un Device PHD (champs requis en gras)</p>
 
 <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
   </span><span class="nl">"resourceType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Device"</span><span class="p">,</span><span class="w">
@@ -518,7 +503,7 @@ https://simplifier.net/packages/hl7.fhir.uv.phd/1.0.0/files/596424</p>
 </span><span class="p">}</span><span class="w">
 </span></code></pre></div></div>
 
-<h5 id="codes-device">Codes Device</h5>
+<p>####### Codes Device</p>
 
 <p>À noter les deux codes indiqués ci-dessus :</p>
 
@@ -537,7 +522,7 @@ https://simplifier.net/packages/hl7.fhir.uv.phd/1.0.0/files/596424</p>
 <p>Par exemple pour une balance "Weight Scale" :
 <code class="language-plaintext highlighter-rouge">8 x 2^16 + 4111 = 528399</code></p>
 
-<h5 id="codes-mdc-des-spécialisations">Codes MDC des spécialisations</h5>
+<p>####### Codes MDC des spécialisations</p>
 
 <table>
   <thead>
@@ -643,13 +628,13 @@ https://simplifier.net/packages/hl7.fhir.uv.phd/1.0.0/files/596424</p>
 
 <p>Cette liste d'exemples est non-exhaustive et provient des spécifications FHIR. Obtenir d'autres codes MDC et donc d'autres codes de champs nécessite l'acquisition de la norme ISO/IEEE 11073-10101:2020.</p>
 
-<h3 id="22-le-flux-dalimentation-de-lapi-mesures">2.2. Le flux d'alimentation de l'API mesures</h3>
+<h5 id="22-le-flux-dalimentation-de-lapi-mesures">2.2. Le flux d'alimentation de l'API mesures</h5>
 
 <p>Le flux d'alimentation unitaire d'une constante reprend la logique de la transaction "PCH 01" (Communicate FHIR PHD data) du profil "IHE POU" (Personal Health Device Observation Upload). Ce profil et cette transaction sont détaillés dans la documentation IHE.</p>
 
 <p>Ce profil se base sur l'interaction "transaction" de l'API REST de FHIR. Il s'agit d'une requête http POST dont le corps est une ressource "Bundle" de type "transaction".</p>
 
-<h4 id="221-contenu-de-la-requête-dalimentation">2.2.1. Contenu de la requête d'alimentation</h4>
+<h6 id="221-contenu-de-la-requête-dalimentation">2.2.1. Contenu de la requête d'alimentation</h6>
 
 <p>Le corps de cette requête contient un "Bundle" qui peut contenir jusqu'à deux ressources :</p>
 
@@ -660,7 +645,7 @@ https://simplifier.net/packages/hl7.fhir.uv.phd/1.0.0/files/596424</p>
 
 <p>La ressource Device est optionnelle pour permettre l'alimentation d'une observation non issue d'un appareil de prise de mesure. Si un device est à l'origine de l'observation alors il doit être présent dans le bundle d'alimentation. La suite de cette documentation prend en compte l'hypothèse d'une alimentation d'observation avec Device.</p>
 
-<h4 id="222-structure-de-la-requête-dalimentation">2.2.2. Structure de la requête d'alimentation</h4>
+<h6 id="222-structure-de-la-requête-dalimentation">2.2.2. Structure de la requête d'alimentation</h6>
 
 <p>Les deux ressources Observation et Device sont incorporées dans la liste ("array") de Bundle.entry. Chaque élément de cette liste est un objet contenant 2 sous-objets : une ressource et la requête http associée.</p>
 
@@ -724,11 +709,11 @@ https://simplifier.net/packages/hl7.fhir.uv.phd/1.0.0/files/596424</p>
   <li>S'il n'existe pas, il sera créé (code 201 Created retourné) avec comme identifiant unique le couple oid + identifier.</li>
 </ul>
 
-<h4 id="223-référence-de-la-ressource-observation-vers-la-ressource-device-observationdevice">2.2.3. Référence de la ressource Observation vers la ressource Device (Observation.device)</h4>
+<h6 id="223-référence-de-la-ressource-observation-vers-la-ressource-device-observationdevice">2.2.3. Référence de la ressource Observation vers la ressource Device (Observation.device)</h6>
 
 <p>La ressource Device doit être référencée dans l'attribut Observation.device.reference. Ainsi, il doit contenir le préfixe « Device/ » et le Device.id doit contenir uniquement l'uuid.</p>
 
-<h4 id="224-lattribut--observationmetasource-">2.2.4. L'attribut « Observation.meta.source »</h4>
+<h6 id="224-lattribut--observationmetasource-">2.2.4. L'attribut « Observation.meta.source »</h6>
 
 <p>Le système source de la donnée est indiqué dans le champ meta de l'observation. Le champ source contient l'oid de la solution à l'origine de l'alimentation de l'observation.</p>
 
@@ -738,11 +723,11 @@ https://simplifier.net/packages/hl7.fhir.uv.phd/1.0.0/files/596424</p>
   <li>S'il n'est pas fourni, l'oid de la solution authentifiée sur l'API est positionné par MES.</li>
 </ul>
 
-<h4 id="225-lattribut--metaprofile-">2.2.5. L'attribut « meta.profile »</h4>
+<h6 id="225-lattribut--metaprofile-">2.2.5. L'attribut « meta.profile »</h6>
 
 <p>L'Observation et le Device doivent renseigner l'url canonique du profil dans le champs meta.profile. Cette information est nécessaire, elle permet de valider la conformance des ressources Device avec le profil PhdDevice ainsi que celle des ressources Observation avec l'un des 11 profils des mesures de santé.</p>
 
-<h4 id="226-cas-particulier-de-la-glycémie">2.2.6. Cas particulier de la glycémie</h4>
+<h6 id="226-cas-particulier-de-la-glycémie">2.2.6. Cas particulier de la glycémie</h6>
 
 <p>Le profil ENS_ObservationGlucose permet de gérer 4 types d'indicateurs de glycémie :</p>
 <ul>
@@ -801,7 +786,7 @@ https://simplifier.net/packages/hl7.fhir.uv.phd/1.0.0/files/596424</p>
   <li>✅ Si une extension obligatoire est absente, l'observation sera considérée comme étant invalide. Le commentaire reste facultatif dans tous les cas.</li>
 </ul>
 
-<h4 id="227-exemple-dappel">2.2.7. Exemple d'appel</h4>
+<h6 id="227-exemple-dappel">2.2.7. Exemple d'appel</h6>
 
 <p>Ci-dessous, un exemple de "Bundle" complet qui doit être envoyé dans le corps de la requête d'alimentation. Ce Bundle contient 2 ressources dans l'attribut "entry" :</p>
 
@@ -990,7 +975,7 @@ https://simplifier.net/packages/hl7.fhir.uv.phd/1.0.0/files/596424</p>
 </span><span class="p">}</span><span class="w">
 </span></code></pre></div></div>
 
-<h4 id="228-réponse-à-la-requête-dalimentation">2.2.8. Réponse à la requête d'alimentation</h4>
+<h6 id="228-réponse-à-la-requête-dalimentation">2.2.8. Réponse à la requête d'alimentation</h6>
 
 <p>En cas de succès, le code http <strong>200 OK</strong> est retourné.</p>
 
@@ -1028,7 +1013,7 @@ https://simplifier.net/packages/hl7.fhir.uv.phd/1.0.0/files/596424</p>
 </span><span class="p">}</span><span class="w">
 </span></code></pre></div></div>
 
-<h5 id="codes-derreur">Codes d'erreur</h5>
+<p>####### Codes d'erreur</p>
 
 <p>Dans le cas d'une erreur rencontrée, un code erreur HTTP est retourné :</p>
 
@@ -1081,7 +1066,7 @@ https://simplifier.net/packages/hl7.fhir.uv.phd/1.0.0/files/596424</p>
   </tbody>
 </table>
 
-<h5 id="operationoutcome">OperationOutcome</h5>
+<p>####### OperationOutcome</p>
 
 <p>Le corps de la réponse contient une ressource Bundle de type « transaction-response ». Cette ressource contient le détail des erreurs et avertissements résultants du traitement de la requête transmise à MES.</p>
 
@@ -1136,7 +1121,7 @@ https://simplifier.net/packages/hl7.fhir.uv.phd/1.0.0/files/596424</p>
   </tbody>
 </table>
 
-<h5 id="liste-des-erreurs-de-validation">Liste des erreurs de validation</h5>
+<p>####### Liste des erreurs de validation</p>
 
 <table>
   <thead>
@@ -1273,11 +1258,11 @@ https://simplifier.net/packages/hl7.fhir.uv.phd/1.0.0/files/596424</p>
   </tbody>
 </table>
 
-<h3 id="23-le-flux-de-recherche-de-lapi-mesures">2.3. Le flux de recherche de l'API mesures</h3>
+<h5 id="23-le-flux-de-recherche-de-lapi-mesures">2.3. Le flux de recherche de l'API mesures</h5>
 
 <p>L'API de lecture des observations consiste en une requête de type Search qui suit la spécification FHIR.</p>
 
-<h4 id="231-modes-de-recherche">2.3.1. Modes de recherche</h4>
+<h6 id="231-modes-de-recherche">2.3.1. Modes de recherche</h6>
 
 <p>Deux modes de recherche sont mis à disposition. Pour faciliter la suite de la documentation, nous les appellerons « all » et « last ».</p>
 
@@ -1285,7 +1270,7 @@ https://simplifier.net/packages/hl7.fhir.uv.phd/1.0.0/files/596424</p>
 
 <p>La recherche <strong>« last »</strong> permet de récupérer la dernière observation pour un code mesures (Observation.code) donné.</p>
 
-<h5 id="2311-paramètres-dappel-de-lopération-search">2.3.1.1. Paramètres d'appel de l'opération Search</h5>
+<p>####### 2.3.1.1. Paramètres d'appel de l'opération Search</p>
 
 <table>
   <thead>
@@ -1342,9 +1327,9 @@ https://simplifier.net/packages/hl7.fhir.uv.phd/1.0.0/files/596424</p>
   </tbody>
 </table>
 
-<h4 id="232-exemples-dappel">2.3.2. Exemples d'appel</h4>
+<h6 id="232-exemples-dappel">2.3.2. Exemples d'appel</h6>
 
-<h5 id="recherche--all--">Recherche « all » :</h5>
+<p>####### Recherche « all » :</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://&lt;baseUrl&gt;/fhir/Observation?subject.identifier=&amp;code=29463-7&amp;date=gt2022-09-04&amp;date=lt2022-09-23&amp;_offset=0&amp;_count=2&amp;_include=Observation.device
 </code></pre></div></div>
@@ -1364,7 +1349,7 @@ https://simplifier.net/packages/hl7.fhir.uv.phd/1.0.0/files/596424</p>
   <li>Les devices liés aux observations remontées (si un même device est rattaché à plusieurs observations, il ne sera présent qu'une fois dans la réponse)</li>
 </ul>
 
-<h5 id="requête--last--">Requête « last » :</h5>
+<p>####### Requête « last » :</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://&lt;baseUrl&gt;/fhir/Observation?subject.identifier=&amp;code=29463-7&amp;_sort=-date&amp;_count=1&amp;_include=Observation.device
 </code></pre></div></div>
@@ -1375,7 +1360,7 @@ https://simplifier.net/packages/hl7.fhir.uv.phd/1.0.0/files/596424</p>
   <li>Le device associé à l'observation remontée</li>
 </ul>
 
-<h4 id="233-réponse-à-la-requête-de-recherche">2.3.3. Réponse à la requête de recherche</h4>
+<h6 id="233-réponse-à-la-requête-de-recherche">2.3.3. Réponse à la requête de recherche</h6>
 
 <p>Quel que soit le mode de recherche, le corps de la réponse contient un bundle de type searchset avec pagination (présence des liens previous/self/next pour naviguer dans la pagination).</p>
 
@@ -1514,7 +1499,7 @@ https://simplifier.net/packages/hl7.fhir.uv.phd/1.0.0/files/596424</p>
 </span><span class="p">}</span><span class="w">
 </span></code></pre></div></div>
 
-<h5 id="codes-derreur-1">Codes d'erreur</h5>
+<p>####### Codes d'erreur</p>
 
 <p>Dans le cas d'une erreur rencontrée, un code erreur HTTP est retourné :</p>
 
@@ -1640,7 +1625,7 @@ https://simplifier.net/packages/hl7.fhir.uv.phd/1.0.0/files/596424</p>
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">Agence du Numérique en Santé (ANS) - 2-10 Rue d&#39;Oradour-sur-Glane, 75015 Paris</a>.  Package ans.fhir.fr.mesmesures#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jan 20, 2026 13:37+0000">2026-01-20</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">Agence du Numérique en Santé (ANS) - 2-10 Rue d&#39;Oradour-sur-Glane, 75015 Paris</a>.  Package ans.fhir.fr.mesmesures#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jan 23, 2026 17:02+0000">2026-01-23</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens : <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières</a> |

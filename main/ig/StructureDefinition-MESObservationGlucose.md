@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/mesmesures/StructureDefinition/MESObservationGlucose | *Version*:0.1.0 |
-| Draft as of 2026-01-20 | *Computable Name*:MESObservationGlucose |
+| Draft as of 2026-01-23 | *Computable Name*:MESObservationGlucose |
 
 **Utilisations:**
 
@@ -37,7 +37,7 @@ Other representations of profile: [CSV](StructureDefinition-MESObservationGlucos
   "version" : "0.1.0",
   "name" : "MESObservationGlucose",
   "status" : "draft",
-  "date" : "2026-01-20T13:37:49+00:00",
+  "date" : "2026-01-23T17:02:12+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [
     {

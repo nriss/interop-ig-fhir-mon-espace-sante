@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/mesmesures/ImplementationGuide/ans.fhir.fr.mesmesures | *Version*:0.1.0 |
-| Draft as of 2026-01-20 | *Computable Name*:ExampleIG |
+| Draft as of 2026-01-23 | *Computable Name*:ExampleIG |
 
  **Guide d'Implémentation FHIR - API Mesures de santé de Mon Espace Santé**
  Ce guide d'implémentation définit les spécifications FHIR pour l'interopérabilité avec l'API Mesures de santé de Mon Espace Santé, permettant aux systèmes partenaires de consulter et d'alimenter les mesures de santé des utilisateurs. 
@@ -88,12 +88,12 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
 
 * ISO maintains the copyright on the country codes, and controls its use carefully. For further details see the ISO 3166 web page: [https://www.iso.org/iso-3166-country-codes.html](https://www.iso.org/iso-3166-country-codes.html)
 
-* [ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code](http://terminology.hl7.org/6.0.2/CodeSystem-ISO3166Part1.html): [ExampleIG](index.md), [MESObservationBmi](StructureDefinition-MESObservationBmi.md)...Show 10 more,[MESObservationBodyHeight](StructureDefinition-MESObservationBodyHeight.md),[MESObservationBodyTemperature](StructureDefinition-MESObservationBodyTemperature.md),[MESObservationBodyWeight](StructureDefinition-MESObservationBodyWeight.md),[MESObservationBp](StructureDefinition-MESObservationBp.md),[MESObservationGlucose](StructureDefinition-MESObservationGlucose.md),[MESObservationHeadCircumference](StructureDefinition-MESObservationHeadCircumference.md),[MESObservationHeartrate](StructureDefinition-MESObservationHeartrate.md),[MESObservationPainSeverity](StructureDefinition-MESObservationPainSeverity.md),[MESObservationStepsByDay](StructureDefinition-MESObservationStepsByDay.md)and[MESObservationWaistCircumference](StructureDefinition-MESObservationWaistCircumference.md)
+* [ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code](http://terminology.hl7.org/6.0.2/CodeSystem-ISO3166Part1.html): [ExampleIG](index.md), [MESObservationBmi](StructureDefinition-MESObservationBmi.md)... Show 10 more, [MESObservationBodyHeight](StructureDefinition-MESObservationBodyHeight.md), [MESObservationBodyTemperature](StructureDefinition-MESObservationBodyTemperature.md), [MESObservationBodyWeight](StructureDefinition-MESObservationBodyWeight.md), [MESObservationBp](StructureDefinition-MESObservationBp.md), [MESObservationGlucose](StructureDefinition-MESObservationGlucose.md), [MESObservationHeadCircumference](StructureDefinition-MESObservationHeadCircumference.md), [MESObservationHeartrate](StructureDefinition-MESObservationHeartrate.md), [MESObservationPainSeverity](StructureDefinition-MESObservationPainSeverity.md), [MESObservationStepsByDay](StructureDefinition-MESObservationStepsByDay.md) and [MESObservationWaistCircumference](StructureDefinition-MESObservationWaistCircumference.md)
 
 
 * The UCUM codes, UCUM table (regardless of format), and UCUM Specification are copyright 1999-2009, Regenstrief Institute, Inc. and the Unified Codes for Units of Measures (UCUM) Organization. All rights reserved. [https://ucum.org/trac/wiki/TermsOfUse](https://ucum.org/trac/wiki/TermsOfUse)
 
-* [Unified Code for Units of Measure (UCUM)](http://terminology.hl7.org/6.0.2/CodeSystem-v3-ucum.html): [MESObservationBodyHeight](StructureDefinition-MESObservationBodyHeight.md), [MESObservationBodyTemperature](StructureDefinition-MESObservationBodyTemperature.md)...Show 4 more,[MESObservationBodyWeight](StructureDefinition-MESObservationBodyWeight.md),[MESObservationHeadCircumference](StructureDefinition-MESObservationHeadCircumference.md),[MESObservationStepsByDay](StructureDefinition-MESObservationStepsByDay.md)and[MESObservationWaistCircumference](StructureDefinition-MESObservationWaistCircumference.md)
+* [Unified Code for Units of Measure (UCUM)](http://terminology.hl7.org/6.0.2/CodeSystem-v3-ucum.html): [MESObservationBodyHeight](StructureDefinition-MESObservationBodyHeight.md), [MESObservationBodyTemperature](StructureDefinition-MESObservationBodyTemperature.md)... Show 4 more, [MESObservationBodyWeight](StructureDefinition-MESObservationBodyWeight.md), [MESObservationHeadCircumference](StructureDefinition-MESObservationHeadCircumference.md), [MESObservationStepsByDay](StructureDefinition-MESObservationStepsByDay.md) and [MESObservationWaistCircumference](StructureDefinition-MESObservationWaistCircumference.md)
 
 
 * This material contains content from [LOINC](http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the [license](http://loinc.org/license). LOINC® is a registered United States trademark of Regenstrief Institute, Inc.
@@ -114,7 +114,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
   "name" : "ExampleIG",
   "title" : "ANS IG Example",
   "status" : "draft",
-  "date" : "2026-01-20T13:37:49+00:00",
+  "date" : "2026-01-23T17:02:12+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [
     {

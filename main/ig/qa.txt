@@ -2,8 +2,8 @@ ExampleIG : Validation Results
 =========================================
 
 err = 7, warn = 70, info = 2074
-IG Publisher Version: 2.0.29
-Generated Tue Jan 20 13:42:36 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.mesmesures#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/mesmesures)
+IG Publisher Version: 2.0.30
+Generated Fri Jan 23 17:06:42 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.mesmesures#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/mesmesures)
  Build Errors : 6 / 14 / 0
  /home/runner/work/interop-ig-fhir-mon-espace-sante/interop-ig-fhir-mon-espace-sante/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.mesmesures : 2 / 3 / 1
  /home/runner/work/interop-ig-fhir-mon-espace-sante/interop-ig-fhir-mon-espace-sante/igSource/fsh-generated/resources/StructureDefinition-MESObservationBmi : 1 / 4 / 182
