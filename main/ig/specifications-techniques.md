@@ -5,6 +5,8 @@
 
 ## Spécifications techniques
 
+> Guide d'implémentation de démo, celui-ci n'a pas vocation à être utilisé
+
 ### Spécifications de l'API Mesures de santé de Mon Espace Santé
 
 **Version 1.5.2** **Date : 21/07/2023**
