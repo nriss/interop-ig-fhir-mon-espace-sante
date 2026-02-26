@@ -3,12 +3,12 @@
 ## Pages
 
 * [Accueil](index.md)
-* [Historique des versions](change-log.md)
-* [Artifacts Summary](artifacts.md)
-* [Sécurité](securite.md)
 * [Spécifications techniques](specifications-techniques.md)
-* [Autres Ressources](autres_ressources.md)
+* [Artifacts Summary](artifacts.md)
 * [Téléchargements et usages](downloads.md)
+* [Autres Ressources](autres_ressources.md)
+* [Historique des versions](change-log.md)
+* [Sécurité](securite.md)
 
 ## Resources
 

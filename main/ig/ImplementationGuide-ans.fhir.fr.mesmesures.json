@@ -3,14 +3,14 @@
   "id" : "ans.fhir.fr.mesmesures",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : ImplementationGuide ans.fhir.fr.mesmesures</b></p><a name=\"ans.fhir.fr.mesmesures\"> </a><a name=\"hcans.fhir.fr.mesmesures\"> </a><h2>ExampleIG</h2><p>LURL officielle pour ce guide dimplémentation est : </p><pre>https://interop.esante.gouv.fr/ig/fhir/mesmesures/ImplementationGuide/ans.fhir.fr.mesmesures</pre><div><p>Description du projet</p>\n</div></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : ImplementationGuide ans.fhir.fr.mesmesures</b></p><a name=\"ans.fhir.fr.mesmesures\"> </a><a name=\"hcans.fhir.fr.mesmesures\"> </a><h2>ExampleIG</h2><p>L'URL officielle pour ce guide d'implémentation est : </p><pre>https://interop.esante.gouv.fr/ig/fhir/mesmesures/ImplementationGuide/ans.fhir.fr.mesmesures</pre><div><p>Description du projet</p>\n</div></div>"
   },
   "url" : "https://interop.esante.gouv.fr/ig/fhir/mesmesures/ImplementationGuide/ans.fhir.fr.mesmesures",
   "version" : "0.1.0",
   "name" : "ExampleIG",
   "title" : "ANS IG Example",
   "status" : "draft",
-  "date" : "2026-01-23T17:02:12+00:00",
+  "date" : "2026-02-26T14:10:00+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

@@ -1,86 +1,84 @@
-[
-  {
-    "id" : "ans.fhir.fr.mesmesures",
-    "type" : "ImplementationGuide",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/mesmesures/ImplementationGuide/ans.fhir.fr.mesmesures",
-    "version" : "0.1.0",
-    "name" : "ExampleIG"
-  },
-  {
-    "id" : "MESObservationBmi",
-    "type" : "StructureDefinition",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/mesmesures/StructureDefinition/MESObservationBmi",
-    "version" : "0.1.0",
-    "name" : "MESObservationBmi"
-  },
-  {
-    "id" : "MESObservationBodyHeight",
-    "type" : "StructureDefinition",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/mesmesures/StructureDefinition/MESObservationBodyHeight",
-    "version" : "0.1.0",
-    "name" : "MESObservationBodyHeight"
-  },
-  {
-    "id" : "MESObservationBodyTemperature",
-    "type" : "StructureDefinition",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/mesmesures/StructureDefinition/MESObservationBodyTemperature",
-    "version" : "0.1.0",
-    "name" : "MESObservationBodyTemperature"
-  },
-  {
-    "id" : "MESObservationBodyWeight",
-    "type" : "StructureDefinition",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/mesmesures/StructureDefinition/MESObservationBodyWeight",
-    "version" : "0.1.0",
-    "name" : "MESObservationBodyWeight"
-  },
-  {
-    "id" : "MESObservationBp",
-    "type" : "StructureDefinition",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/mesmesures/StructureDefinition/MESObservationBp",
-    "version" : "0.1.0",
-    "name" : "MESObservationBp"
-  },
-  {
-    "id" : "MESObservationGlucose",
-    "type" : "StructureDefinition",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/mesmesures/StructureDefinition/MESObservationGlucose",
-    "version" : "0.1.0",
-    "name" : "MESObservationGlucose"
-  },
-  {
-    "id" : "MESObservationHeadCircumference",
-    "type" : "StructureDefinition",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/mesmesures/StructureDefinition/MESObservationHeadCircumference",
-    "version" : "0.1.0",
-    "name" : "MESObservationHeadCircumference"
-  },
-  {
-    "id" : "MESObservationHeartrate",
-    "type" : "StructureDefinition",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/mesmesures/StructureDefinition/MESObservationHeartrate",
-    "version" : "0.1.0",
-    "name" : "MESObservationHeartrate"
-  },
-  {
-    "id" : "MESObservationPainSeverity",
-    "type" : "StructureDefinition",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/mesmesures/StructureDefinition/MESObservationPainSeverity",
-    "version" : "0.1.0",
-    "name" : "MESObservationPainSeverity"
-  },
-  {
-    "id" : "MESObservationStepsByDay",
-    "type" : "StructureDefinition",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/mesmesures/StructureDefinition/MESObservationStepsByDay",
-    "version" : "0.1.0",
-    "name" : "MESObservationStepsByDay"
-  },
-  {
-    "id" : "MESObservationWaistCircumference",
-    "type" : "StructureDefinition",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/mesmesures/StructureDefinition/MESObservationWaistCircumference",
-    "version" : "0.1.0",
-    "name" : "MESObservationWaistCircumference"
-  }
-]
+[{
+  "id" : "ans.fhir.fr.mesmesures",
+  "type" : "ImplementationGuide",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/mesmesures/ImplementationGuide/ans.fhir.fr.mesmesures",
+  "version" : "0.1.0",
+  "name" : "ExampleIG"
+},
+{
+  "id" : "MESObservationBmi",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/mesmesures/StructureDefinition/MESObservationBmi",
+  "version" : "0.1.0",
+  "name" : "MESObservationBmi"
+},
+{
+  "id" : "MESObservationBodyHeight",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/mesmesures/StructureDefinition/MESObservationBodyHeight",
+  "version" : "0.1.0",
+  "name" : "MESObservationBodyHeight"
+},
+{
+  "id" : "MESObservationBodyTemperature",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/mesmesures/StructureDefinition/MESObservationBodyTemperature",
+  "version" : "0.1.0",
+  "name" : "MESObservationBodyTemperature"
+},
+{
+  "id" : "MESObservationBodyWeight",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/mesmesures/StructureDefinition/MESObservationBodyWeight",
+  "version" : "0.1.0",
+  "name" : "MESObservationBodyWeight"
+},
+{
+  "id" : "MESObservationBp",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/mesmesures/StructureDefinition/MESObservationBp",
+  "version" : "0.1.0",
+  "name" : "MESObservationBp"
+},
+{
+  "id" : "MESObservationGlucose",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/mesmesures/StructureDefinition/MESObservationGlucose",
+  "version" : "0.1.0",
+  "name" : "MESObservationGlucose"
+},
+{
+  "id" : "MESObservationHeadCircumference",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/mesmesures/StructureDefinition/MESObservationHeadCircumference",
+  "version" : "0.1.0",
+  "name" : "MESObservationHeadCircumference"
+},
+{
+  "id" : "MESObservationHeartrate",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/mesmesures/StructureDefinition/MESObservationHeartrate",
+  "version" : "0.1.0",
+  "name" : "MESObservationHeartrate"
+},
+{
+  "id" : "MESObservationPainSeverity",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/mesmesures/StructureDefinition/MESObservationPainSeverity",
+  "version" : "0.1.0",
+  "name" : "MESObservationPainSeverity"
+},
+{
+  "id" : "MESObservationStepsByDay",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/mesmesures/StructureDefinition/MESObservationStepsByDay",
+  "version" : "0.1.0",
+  "name" : "MESObservationStepsByDay"
+},
+{
+  "id" : "MESObservationWaistCircumference",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/mesmesures/StructureDefinition/MESObservationWaistCircumference",
+  "version" : "0.1.0",
+  "name" : "MESObservationWaistCircumference"
+}]

@@ -1,22 +1,22 @@
 ExampleIG : Validation Results
 =========================================
 
-err = 7, warn = 70, info = 2074
-IG Publisher Version: 2.0.30
-Generated Fri Jan 23 17:06:42 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.mesmesures#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/mesmesures)
- Build Errors : 6 / 14 / 0
- /home/runner/work/interop-ig-fhir-mon-espace-sante/interop-ig-fhir-mon-espace-sante/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.mesmesures : 2 / 3 / 1
- /home/runner/work/interop-ig-fhir-mon-espace-sante/interop-ig-fhir-mon-espace-sante/igSource/fsh-generated/resources/StructureDefinition-MESObservationBmi : 1 / 4 / 182
- /home/runner/work/interop-ig-fhir-mon-espace-sante/interop-ig-fhir-mon-espace-sante/igSource/fsh-generated/resources/StructureDefinition-MESObservationBodyHeight : 1 / 5 / 172
- /home/runner/work/interop-ig-fhir-mon-espace-sante/interop-ig-fhir-mon-espace-sante/igSource/fsh-generated/resources/StructureDefinition-MESObservationBodyTemperature : 1 / 5 / 196
- /home/runner/work/interop-ig-fhir-mon-espace-sante/interop-ig-fhir-mon-espace-sante/igSource/fsh-generated/resources/StructureDefinition-MESObservationBodyWeight : 1 / 5 / 172
- /home/runner/work/interop-ig-fhir-mon-espace-sante/interop-ig-fhir-mon-espace-sante/igSource/fsh-generated/resources/StructureDefinition-MESObservationBp : 0 / 4 / 274
- /home/runner/work/interop-ig-fhir-mon-espace-sante/interop-ig-fhir-mon-espace-sante/igSource/fsh-generated/resources/StructureDefinition-MESObservationGlucose : 0 / 4 / 221
- /home/runner/work/interop-ig-fhir-mon-espace-sante/interop-ig-fhir-mon-espace-sante/igSource/fsh-generated/resources/StructureDefinition-MESObservationHeadCircumference : 0 / 4 / 163
- /home/runner/work/interop-ig-fhir-mon-espace-sante/interop-ig-fhir-mon-espace-sante/igSource/fsh-generated/resources/StructureDefinition-MESObservationHeartrate : 1 / 10 / 195
- /home/runner/work/interop-ig-fhir-mon-espace-sante/interop-ig-fhir-mon-espace-sante/igSource/fsh-generated/resources/StructureDefinition-MESObservationPainSeverity : 0 / 4 / 172
- /home/runner/work/interop-ig-fhir-mon-espace-sante/interop-ig-fhir-mon-espace-sante/igSource/fsh-generated/resources/StructureDefinition-MESObservationStepsByDay : 0 / 4 / 177
- /home/runner/work/interop-ig-fhir-mon-espace-sante/interop-ig-fhir-mon-espace-sante/igSource/fsh-generated/resources/StructureDefinition-MESObservationWaistCircumference : 0 / 4 / 161
+err = 19, warn = 71, info = 2074
+IG Publisher Version: 2.1.1
+Generated Thu Feb 26 14:13:58 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.mesmesures#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/mesmesures)
+ Build Errors : 7 / 14 / 0
+ /home/runner/work/interop-ig-fhir-mon-espace-sante/interop-ig-fhir-mon-espace-sante/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.mesmesures : 3 / 4 / 1
+ /home/runner/work/interop-ig-fhir-mon-espace-sante/interop-ig-fhir-mon-espace-sante/igSource/fsh-generated/resources/StructureDefinition-MESObservationBmi : 2 / 4 / 182
+ /home/runner/work/interop-ig-fhir-mon-espace-sante/interop-ig-fhir-mon-espace-sante/igSource/fsh-generated/resources/StructureDefinition-MESObservationBodyHeight : 2 / 5 / 172
+ /home/runner/work/interop-ig-fhir-mon-espace-sante/interop-ig-fhir-mon-espace-sante/igSource/fsh-generated/resources/StructureDefinition-MESObservationBodyTemperature : 2 / 5 / 196
+ /home/runner/work/interop-ig-fhir-mon-espace-sante/interop-ig-fhir-mon-espace-sante/igSource/fsh-generated/resources/StructureDefinition-MESObservationBodyWeight : 2 / 5 / 172
+ /home/runner/work/interop-ig-fhir-mon-espace-sante/interop-ig-fhir-mon-espace-sante/igSource/fsh-generated/resources/StructureDefinition-MESObservationBp : 1 / 4 / 274
+ /home/runner/work/interop-ig-fhir-mon-espace-sante/interop-ig-fhir-mon-espace-sante/igSource/fsh-generated/resources/StructureDefinition-MESObservationGlucose : 1 / 4 / 221
+ /home/runner/work/interop-ig-fhir-mon-espace-sante/interop-ig-fhir-mon-espace-sante/igSource/fsh-generated/resources/StructureDefinition-MESObservationHeadCircumference : 1 / 4 / 163
+ /home/runner/work/interop-ig-fhir-mon-espace-sante/interop-ig-fhir-mon-espace-sante/igSource/fsh-generated/resources/StructureDefinition-MESObservationHeartrate : 2 / 10 / 195
+ /home/runner/work/interop-ig-fhir-mon-espace-sante/interop-ig-fhir-mon-espace-sante/igSource/fsh-generated/resources/StructureDefinition-MESObservationPainSeverity : 1 / 4 / 172
+ /home/runner/work/interop-ig-fhir-mon-espace-sante/interop-ig-fhir-mon-espace-sante/igSource/fsh-generated/resources/StructureDefinition-MESObservationStepsByDay : 1 / 4 / 177
+ /home/runner/work/interop-ig-fhir-mon-espace-sante/interop-ig-fhir-mon-espace-sante/igSource/fsh-generated/resources/StructureDefinition-MESObservationWaistCircumference : 1 / 4 / 161
 </table>
 == n/a ==
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/MESObservationBmi.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
@@ -36,13 +36,16 @@ ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 217, column
 ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 223, column 8: The link 'examples.xml.zip' for "Exemples XML (zip)" cannot be resolved
 ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 224, column 8: The link 'examples.json.zip' for "Exemples JSON (zip)" cannot be resolved
 ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 225, column 8: The link 'examples.ttl.zip' for "Exemples Turtle (zip)" cannot be resolved
+ERROR: searchform.html#/html/body/div/div/div/a/img/div/a/img/div/p/img at Line 57, column 3: The image source 'assets/images/fra.svg' cannot be resolved
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 5: The HTML fragment 'expansion-params.xhtml' is not included anywhere in the produced implementation guide
 == fsh-generated/resources/ImplementationGuide-ans.fhir.fr.mesmesures.json ==
+ERROR: ImplementationGuide/ans.fhir.fr.mesmesures: ImplementationGuide.jurisdiction[0].coding[0].display: Wrong Display Name 'FRANCE' for urn:iso:std:iso:3166#FR. There are no valid display names found for language(s) 'fr'. Default display is 'France'
 WARNING: ImplementationGuide/ans.fhir.fr.mesmesures: ImplementationGuide.dependsOn[4].uri: A definition could not be found for Canonical URL 'http://fhir.org/packages/hl7.fhir.fr.core/ImplementationGuide/hl7.fhir.fr.core'
 ERROR: ImplementationGuide/ans.fhir.fr.mesmesures: ImplementationGuide.definition.extension[34].url: No definition could be found for URL value 'http://hl7.org/fhir/tools/StructureDefinition/expansion-parameters'
-WARNING: ImplementationGuide/ans.fhir.fr.mesmesures: ImplementationGuide.dependsOn[2]: The ImplementationGuide uses package ans.fhir.fr.mesures#3.0.1 released on 2023-04-26, but the most recent appropriate version is 3.1.0. This reference is getting old and the more recent version should be considered
+WARNING: ImplementationGuide/ans.fhir.fr.mesmesures: ImplementationGuide.dependsOn[2]: The ImplementationGuide uses package ans.fhir.fr.mesures#3.0.1 released on 2023-04-26, but the most recent appropriate version is 3.2.0. This reference is getting old and the more recent version should be considered
+WARNING: ImplementationGuide/ans.fhir.fr.mesmesures: ImplementationGuide.dependsOn[3]: The ImplementationGuide uses package ans.fhir.fr.mesures#3.1.0 released on 2024-10-02, but the most recent appropriate version is 3.2.0. This reference is getting old and the more recent version should be considered
 WARNING: ImplementationGuide/ans.fhir.fr.mesmesures: ImplementationGuide.dependsOn[4]: The canonical URL http://fhir.org/packages/hl7.fhir.fr.core/ImplementationGuide/hl7.fhir.fr.core doesn't point to an actual ImplementationGuide resource
 ERROR: ImplementationGuide/ans.fhir.fr.mesmesures: ImplementationGuide.dependsOn[4]: The packageId hl7.fhir.fr.core points to the canonical https://hl7.fr/ig/fhir/core which is inconsistent with the stated canonical of http://fhir.org/packages/hl7.fhir.fr.core/ImplementationGuide/hl7.fhir.fr.core
 == fsh-generated/resources/StructureDefinition-MESObservationBmi.json ==
@@ -226,6 +229,7 @@ INFORMATION: StructureDefinition.snapshot.element[111].constraint[0].source: Pin
 INFORMATION: StructureDefinition.snapshot.element[111].binding.valueSet: Pinned the version of http://hl7.org/fhir/ValueSet/observation-interpretation to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[112].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition/MESObservationBmi: StructureDefinition.text.div: Hyperlink scheme 'file' in 'file:///Users/nicolasriss/Desktop/ANSFORGE_ans-ig/FIG_ans-ig-mesures/output/StructureDefinition-mesures-fr-observation-bmi.html' at 'div/table/tr/td/a' for 'MesFrObservationBmi(3.0.1)' is not a widely supported protocol and should be checked
+ERROR: StructureDefinition/MESObservationBmi: StructureDefinition.jurisdiction[0].coding[0].display: Wrong Display Name 'FRANCE' for urn:iso:std:iso:3166#FR. There are no valid display names found for language(s) 'fr'. Default display is 'France'
 WARNING: StructureDefinition/MESObservationBmi: StructureDefinition.snapshot.element[8].fixed.ofType(canonical): A definition could not be found for Canonical URL 'https://fhir.monespacesante.fr/ref/mesure/StructureDefinition/mes-observation-bmi'
 INFORMATION: StructureDefinition/MESObservationBmi: StructureDefinition.snapshot.element[12].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
 WARNING: StructureDefinition/MESObservationBmi: StructureDefinition.differential.element[1].fixed.ofType(canonical): A definition could not be found for Canonical URL 'https://fhir.monespacesante.fr/ref/mesure/StructureDefinition/mes-observation-bmi'
@@ -404,6 +408,7 @@ INFORMATION: StructureDefinition.snapshot.element[101].constraint[0].source: Pin
 INFORMATION: StructureDefinition.snapshot.element[101].binding.valueSet: Pinned the version of http://hl7.org/fhir/ValueSet/observation-interpretation to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[102].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition/MESObservationBodyHeight: StructureDefinition.text.div: Hyperlink scheme 'file' in 'file:///Users/nicolasriss/Desktop/ANSFORGE_ans-ig/FIG_ans-ig-mesures/output/StructureDefinition-mesures-fr-observation-bodyheight.html' at 'div/table/tr/td/a' for 'MesFrObservationBodyHeight(3.0.1)' is not a widely supported protocol and should be checked
+ERROR: StructureDefinition/MESObservationBodyHeight: StructureDefinition.jurisdiction[0].coding[0].display: Wrong Display Name 'FRANCE' for urn:iso:std:iso:3166#FR. There are no valid display names found for language(s) 'fr'. Default display is 'France'
 WARNING: StructureDefinition/MESObservationBodyHeight: StructureDefinition.snapshot.element[8].fixed.ofType(canonical): A definition could not be found for Canonical URL 'https://fhir.monespacesante.fr/ref/mesure/StructureDefinition/mes-observation-bodyheight'
 WARNING: StructureDefinition/MESObservationBodyHeight: StructureDefinition.snapshot.element[76].binding.valueSet: A definition could not be found for Canonical URL 'http://www.interopsante.org/fhir/structuredefinition/observation/fr-obervation-interpretation'
 WARNING: StructureDefinition/MESObservationBodyHeight: StructureDefinition.differential.element[1].fixed.ofType(canonical): A definition could not be found for Canonical URL 'https://fhir.monespacesante.fr/ref/mesure/StructureDefinition/mes-observation-bodyheight'
@@ -606,6 +611,7 @@ INFORMATION: StructureDefinition.snapshot.element[124].constraint[0].source: Pin
 INFORMATION: StructureDefinition.snapshot.element[124].binding.valueSet: Pinned the version of http://hl7.org/fhir/ValueSet/observation-interpretation to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[125].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition/MESObservationBodyTemperature: StructureDefinition.text.div: Hyperlink scheme 'file' in 'file:///Users/nicolasriss/Desktop/ANSFORGE_ans-ig/FIG_ans-ig-mesures/output/StructureDefinition-mesures-fr-observation-body-temperature.html' at 'div/table/tr/td/a' for 'MesFrObservationBodyTemperature(3.0.1)' is not a widely supported protocol and should be checked
+ERROR: StructureDefinition/MESObservationBodyTemperature: StructureDefinition.jurisdiction[0].coding[0].display: Wrong Display Name 'FRANCE' for urn:iso:std:iso:3166#FR. There are no valid display names found for language(s) 'fr'. Default display is 'France'
 WARNING: StructureDefinition/MESObservationBodyTemperature: StructureDefinition.snapshot.element[8].fixed.ofType(canonical): A definition could not be found for Canonical URL 'https://fhir.monespacesante.fr/ref/mesure/StructureDefinition/mes-observation-bodytemperature'
 WARNING: StructureDefinition/MESObservationBodyTemperature: StructureDefinition.snapshot.element[77].binding.valueSet: A definition could not be found for Canonical URL 'http://www.interopsante.org/fhir/structuredefinition/observation/fr-obervation-interpretation'
 WARNING: StructureDefinition/MESObservationBodyTemperature: StructureDefinition.differential.element[1].fixed.ofType(canonical): A definition could not be found for Canonical URL 'https://fhir.monespacesante.fr/ref/mesure/StructureDefinition/mes-observation-bodytemperature'
@@ -784,6 +790,7 @@ INFORMATION: StructureDefinition.snapshot.element[101].constraint[0].source: Pin
 INFORMATION: StructureDefinition.snapshot.element[101].binding.valueSet: Pinned the version of http://hl7.org/fhir/ValueSet/observation-interpretation to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[102].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition/MESObservationBodyWeight: StructureDefinition.text.div: Hyperlink scheme 'file' in 'file:///Users/nicolasriss/Desktop/ANSFORGE_ans-ig/FIG_ans-ig-mesures/output/StructureDefinition-mesures-fr-observation-body-weight.html' at 'div/table/tr/td/a' for 'MesFrObservationBodyWeight(3.0.1)' is not a widely supported protocol and should be checked
+ERROR: StructureDefinition/MESObservationBodyWeight: StructureDefinition.jurisdiction[0].coding[0].display: Wrong Display Name 'FRANCE' for urn:iso:std:iso:3166#FR. There are no valid display names found for language(s) 'fr'. Default display is 'France'
 WARNING: StructureDefinition/MESObservationBodyWeight: StructureDefinition.snapshot.element[8].fixed.ofType(canonical): A definition could not be found for Canonical URL 'https://fhir.monespacesante.fr/ref/mesure/StructureDefinition/mes-observation-bodyweight'
 WARNING: StructureDefinition/MESObservationBodyWeight: StructureDefinition.snapshot.element[76].binding.valueSet: A definition could not be found for Canonical URL 'http://www.interopsante.org/fhir/structuredefinition/observation/fr-obervation-interpretation'
 WARNING: StructureDefinition/MESObservationBodyWeight: StructureDefinition.differential.element[1].fixed.ofType(canonical): A definition could not be found for Canonical URL 'https://fhir.monespacesante.fr/ref/mesure/StructureDefinition/mes-observation-bodyweight'
@@ -1063,6 +1070,7 @@ INFORMATION: StructureDefinition.snapshot.element[183].binding.valueSet: Pinned 
 INFORMATION: StructureDefinition.snapshot.element[184].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[184].binding.valueSet: Pinned the version of http://hl7.org/fhir/ValueSet/observation-interpretation to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[185].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+ERROR: StructureDefinition/MESObservationBp: StructureDefinition.jurisdiction[0].coding[0].display: Wrong Display Name 'FRANCE' for urn:iso:std:iso:3166#FR. There are no valid display names found for language(s) 'fr'. Default display is 'France'
 WARNING: StructureDefinition/MESObservationBp: StructureDefinition.snapshot.element[8].fixed.ofType(canonical): A definition could not be found for Canonical URL 'https://fhir.monespacesante.fr/ref/mesure/StructureDefinition/mes-observation-bp'
 WARNING: StructureDefinition/MESObservationBp: StructureDefinition.differential.element[1].fixed.ofType(canonical): A definition could not be found for Canonical URL 'https://fhir.monespacesante.fr/ref/mesure/StructureDefinition/mes-observation-bp'
 INFORMATION: StructureDefinition/MESObservationBp: StructureDefinition.snapshot.element[8].fixed.ofType(canonical): The repeating element has a fixed. The fixed will apply to all the repeats (this has not been clear to all users)
@@ -1288,6 +1296,7 @@ INFORMATION: StructureDefinition.snapshot.element[145].constraint[0].source: Pin
 INFORMATION: StructureDefinition.snapshot.element[145].binding.valueSet: Pinned the version of http://hl7.org/fhir/ValueSet/observation-interpretation to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[146].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition/MESObservationGlucose: StructureDefinition.text.div: Hyperlink scheme 'file' in 'file:///Users/nicolasriss/Desktop/ANSFORGE_ans-ig/FIG_ans-ig-mesures/output/StructureDefinition-mesures-observation-glucose.html' at 'div/table/tr/td/a' for 'MesObservationGlucose(3.0.1)' is not a widely supported protocol and should be checked
+ERROR: StructureDefinition/MESObservationGlucose: StructureDefinition.jurisdiction[0].coding[0].display: Wrong Display Name 'FRANCE' for urn:iso:std:iso:3166#FR. There are no valid display names found for language(s) 'fr'. Default display is 'France'
 WARNING: StructureDefinition/MESObservationGlucose: StructureDefinition.snapshot.element[8].fixed.ofType(canonical): A definition could not be found for Canonical URL 'https://fhir.monespacesante.fr/ref/mesure/StructureDefinition/mes-observation-glucose'
 WARNING: StructureDefinition/MESObservationGlucose: StructureDefinition.differential.element[1].fixed.ofType(canonical): A definition could not be found for Canonical URL 'https://fhir.monespacesante.fr/ref/mesure/StructureDefinition/mes-observation-glucose'
 INFORMATION: StructureDefinition/MESObservationGlucose: StructureDefinition.snapshot.element[8].fixed.ofType(canonical): The repeating element has a fixed. The fixed will apply to all the repeats (this has not been clear to all users)
@@ -1455,6 +1464,7 @@ INFORMATION: StructureDefinition.snapshot.element[90].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[90].binding.valueSet: Pinned the version of http://hl7.org/fhir/ValueSet/observation-interpretation to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[91].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition/MESObservationHeadCircumference: StructureDefinition.text.div: Hyperlink scheme 'file' in 'file:///Users/nicolasriss/Desktop/ANSFORGE_ans-ig/FIG_ans-ig-mesures/output/StructureDefinition-mesures-observation-head-circumference.html' at 'div/table/tr/td/a' for 'MesObservationHeadCircumference(3.0.1)' is not a widely supported protocol and should be checked
+ERROR: StructureDefinition/MESObservationHeadCircumference: StructureDefinition.jurisdiction[0].coding[0].display: Wrong Display Name 'FRANCE' for urn:iso:std:iso:3166#FR. There are no valid display names found for language(s) 'fr'. Default display is 'France'
 WARNING: StructureDefinition/MESObservationHeadCircumference: StructureDefinition.snapshot.element[8].fixed.ofType(canonical): A definition could not be found for Canonical URL 'https://fhir.monespacesante.fr/ref/mesure/StructureDefinition/mes-observation-headcircumference'
 WARNING: StructureDefinition/MESObservationHeadCircumference: StructureDefinition.differential.element[1].fixed.ofType(canonical): A definition could not be found for Canonical URL 'https://fhir.monespacesante.fr/ref/mesure/StructureDefinition/mes-observation-headcircumference'
 INFORMATION: StructureDefinition/MESObservationHeadCircumference: StructureDefinition.snapshot.element[8].fixed.ofType(canonical): The repeating element has a fixed. The fixed will apply to all the repeats (this has not been clear to all users)
@@ -1655,6 +1665,7 @@ INFORMATION: StructureDefinition.snapshot.element[122].constraint[0].source: Pin
 INFORMATION: StructureDefinition.snapshot.element[122].binding.valueSet: Pinned the version of http://hl7.org/fhir/ValueSet/observation-interpretation to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[123].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition/MESObservationHeartrate: StructureDefinition.text.div: Hyperlink scheme 'file' in 'file:///Users/nicolasriss/Desktop/ANSFORGE_ans-ig/FIG_ans-ig-mesures/output/StructureDefinition-mesures-fr-observation-heartrate.html' at 'div/table/tr/td/a' for 'MesFrObservationHeartrate(3.0.1)' is not a widely supported protocol and should be checked
+ERROR: StructureDefinition/MESObservationHeartrate: StructureDefinition.jurisdiction[0].coding[0].display: Wrong Display Name 'FRANCE' for urn:iso:std:iso:3166#FR. There are no valid display names found for language(s) 'fr'. Default display is 'France'
 WARNING: StructureDefinition/MESObservationHeartrate: StructureDefinition.snapshot.element[8].fixed.ofType(canonical): A definition could not be found for Canonical URL 'https://fhir.monespacesante.fr/ref/mesure/StructureDefinition/mes-observation-heartrate'
 WARNING: StructureDefinition/MESObservationHeartrate: StructureDefinition.snapshot.element[56].type[0].targetProfile[2]: A definition could not be found for Canonical URL 'http://www.interopsante.org/fhir/structuredefinition/fr-practitioner-role'
 WARNING: StructureDefinition/MESObservationHeartrate: StructureDefinition.snapshot.element[78].binding.valueSet: A definition could not be found for Canonical URL 'http://www.interopsante.org/fhir/structuredefinition/observation/fr-obervation-interpretation'
@@ -1837,6 +1848,7 @@ INFORMATION: StructureDefinition.snapshot.element[100].constraint[0].source: Pin
 INFORMATION: StructureDefinition.snapshot.element[100].binding.valueSet: Pinned the version of http://hl7.org/fhir/ValueSet/observation-interpretation to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[101].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition/MESObservationPainSeverity: StructureDefinition.text.div: Hyperlink scheme 'file' in 'file:///Users/nicolasriss/Desktop/ANSFORGE_ans-ig/FIG_ans-ig-mesures/output/StructureDefinition-mesures-observation-pain-severity.html' at 'div/table/tr/td/a' for 'MesObservationPainSeverity(3.0.1)' is not a widely supported protocol and should be checked
+ERROR: StructureDefinition/MESObservationPainSeverity: StructureDefinition.jurisdiction[0].coding[0].display: Wrong Display Name 'FRANCE' for urn:iso:std:iso:3166#FR. There are no valid display names found for language(s) 'fr'. Default display is 'France'
 WARNING: StructureDefinition/MESObservationPainSeverity: StructureDefinition.snapshot.element[8].fixed.ofType(canonical): A definition could not be found for Canonical URL 'https://fhir.monespacesante.fr/ref/mesure/StructureDefinition/mes-observation-painseverity'
 WARNING: StructureDefinition/MESObservationPainSeverity: StructureDefinition.differential.element[1].fixed.ofType(canonical): A definition could not be found for Canonical URL 'https://fhir.monespacesante.fr/ref/mesure/StructureDefinition/mes-observation-painseverity'
 INFORMATION: StructureDefinition/MESObservationPainSeverity: StructureDefinition.snapshot.element[8].fixed.ofType(canonical): The repeating element has a fixed. The fixed will apply to all the repeats (this has not been clear to all users)
@@ -2017,6 +2029,7 @@ INFORMATION: StructureDefinition.snapshot.element[104].constraint[0].source: Pin
 INFORMATION: StructureDefinition.snapshot.element[104].binding.valueSet: Pinned the version of http://hl7.org/fhir/ValueSet/observation-interpretation to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[105].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition/MESObservationStepsByDay: StructureDefinition.text.div: Hyperlink scheme 'file' in 'file:///Users/nicolasriss/Desktop/ANSFORGE_ans-ig/FIG_ans-ig-mesures/output/StructureDefinition-mesures-observation-steps-by-day.html' at 'div/table/tr/td/a' for 'MesObservationStepsByDay(3.0.1)' is not a widely supported protocol and should be checked
+ERROR: StructureDefinition/MESObservationStepsByDay: StructureDefinition.jurisdiction[0].coding[0].display: Wrong Display Name 'FRANCE' for urn:iso:std:iso:3166#FR. There are no valid display names found for language(s) 'fr'. Default display is 'France'
 WARNING: StructureDefinition/MESObservationStepsByDay: StructureDefinition.snapshot.element[8].fixed.ofType(canonical): A definition could not be found for Canonical URL 'https://fhir.monespacesante.fr/ref/mesure/StructureDefinition/mes-observation-stepsbyday'
 WARNING: StructureDefinition/MESObservationStepsByDay: StructureDefinition.differential.element[1].fixed.ofType(canonical): A definition could not be found for Canonical URL 'https://fhir.monespacesante.fr/ref/mesure/StructureDefinition/mes-observation-stepsbyday'
 INFORMATION: StructureDefinition/MESObservationStepsByDay: StructureDefinition.snapshot.element[8].fixed.ofType(canonical): The repeating element has a fixed. The fixed will apply to all the repeats (this has not been clear to all users)
@@ -2183,6 +2196,7 @@ INFORMATION: StructureDefinition.snapshot.element[89].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[89].binding.valueSet: Pinned the version of http://hl7.org/fhir/ValueSet/observation-interpretation to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[90].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition/MESObservationWaistCircumference: StructureDefinition.text.div: Hyperlink scheme 'file' in 'file:///Users/nicolasriss/Desktop/ANSFORGE_ans-ig/FIG_ans-ig-mesures/output/StructureDefinition-mesures-observation-waist-circumference.html' at 'div/table/tr/td/a' for 'MesObservationWaistCircumference(3.0.1)' is not a widely supported protocol and should be checked
+ERROR: StructureDefinition/MESObservationWaistCircumference: StructureDefinition.jurisdiction[0].coding[0].display: Wrong Display Name 'FRANCE' for urn:iso:std:iso:3166#FR. There are no valid display names found for language(s) 'fr'. Default display is 'France'
 WARNING: StructureDefinition/MESObservationWaistCircumference: StructureDefinition.snapshot.element[8].fixed.ofType(canonical): A definition could not be found for Canonical URL 'https://fhir.monespacesante.fr/ref/mesure/StructureDefinition/mes-observation-waistcircumference'
 WARNING: StructureDefinition/MESObservationWaistCircumference: StructureDefinition.differential.element[1].fixed.ofType(canonical): A definition could not be found for Canonical URL 'https://fhir.monespacesante.fr/ref/mesure/StructureDefinition/mes-observation-waistcircumference'
 INFORMATION: StructureDefinition/MESObservationWaistCircumference: StructureDefinition.snapshot.element[8].fixed.ofType(canonical): The repeating element has a fixed. The fixed will apply to all the repeats (this has not been clear to all users)
