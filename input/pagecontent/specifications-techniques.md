@@ -1,3 +1,10 @@
+<div style="width: 65%">
+    <blockquote class="dragon">
+    <p>Guide d'implémentation de démo, celui-ci n'a pas vocation à être utilisé</p>
+    </blockquote>
+</div>
+
+
 ### Spécifications de l'API Mesures de santé de Mon Espace Santé
 
 **Version 1.5.2**
