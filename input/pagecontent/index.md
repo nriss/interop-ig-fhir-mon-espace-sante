@@ -1,3 +1,10 @@
+<div style="width: 65%">
+    <blockquote class="dragon">
+    <p>Guide d'implémentation de démo, celui-ci n'a pas vocation à être utilisé</p>
+    </blockquote>
+</div>
+
+
 <p style="padding: 5px; border-radius: 5px; border: 2px solid maroon; background: #ffffe6; width: 65%">
 <b>Guide d'Implémentation FHIR - API Mesures de santé de Mon Espace Santé</b><br>
 Ce guide d'implémentation définit les spécifications FHIR pour l'interopérabilité avec l'API Mesures de santé de Mon Espace Santé, permettant aux systèmes partenaires de consulter et d'alimenter les mesures de santé des utilisateurs.
