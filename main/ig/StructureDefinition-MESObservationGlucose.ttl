@@ -20,7 +20,7 @@
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "MESObservationGlucose"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-02-26T14:10:46+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-03-12T14:12:24+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris" ] ;
@@ -898,8 +898,8 @@
            fhir:l fhir:Extension
          ] ;
          fhir:profile ( [
-           fhir:v "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-reason-for-measurement|3.1.0"^^xsd:anyURI ;
-           fhir:l <https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-reason-for-measurement?version=3.1.0>
+           fhir:v "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-reason-for-measurement|3.2.0"^^xsd:anyURI ;
+           fhir:l <https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-reason-for-measurement?version=3.2.0>
          ] )
        ] ) ;
        fhir:condition ( [ fhir:v "ele-1" ] ) ;
@@ -944,8 +944,8 @@
            fhir:l fhir:Extension
          ] ;
          fhir:profile ( [
-           fhir:v "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-moment-of-measurement|3.1.0"^^xsd:anyURI ;
-           fhir:l <https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-moment-of-measurement?version=3.1.0>
+           fhir:v "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-moment-of-measurement|3.2.0"^^xsd:anyURI ;
+           fhir:l <https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-moment-of-measurement?version=3.2.0>
          ] )
        ] ) ;
        fhir:condition ( [ fhir:v "ele-1" ] ) ;
@@ -1141,8 +1141,8 @@
          fhir:strength [ fhir:v "required" ] ;
          fhir:description [ fhir:v "JDV-J157-MomentGlucose-ENS" ] ;
          fhir:valueSet [
-           fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J157-MomentGlucose-ENS/FHIR/JDV-J157-MomentGlucose-ENS|1.2.0"^^xsd:anyURI ;
-           fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J157-MomentGlucose-ENS/FHIR/JDV-J157-MomentGlucose-ENS?version=1.2.0>
+           fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J157-MomentGlucose-ENS/FHIR/JDV-J157-MomentGlucose-ENS|20250728120000"^^xsd:anyURI ;
+           fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J157-MomentGlucose-ENS/FHIR/JDV-J157-MomentGlucose-ENS?version=20250728120000>
          ]
        ] ;
        fhir:mapping ( [
@@ -1704,8 +1704,8 @@
            fhir:l fhir:Extension
          ] ;
          fhir:profile ( [
-           fhir:v "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-number-of-days|3.1.0"^^xsd:anyURI ;
-           fhir:l <https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-number-of-days?version=3.1.0>
+           fhir:v "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-number-of-days|3.2.0"^^xsd:anyURI ;
+           fhir:l <https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-number-of-days?version=3.2.0>
          ] )
        ] ) ;
        fhir:condition ( [ fhir:v "ele-1" ] ) ;
@@ -1893,8 +1893,8 @@
          fhir:strength [ fhir:v "required" ] ;
          fhir:description [ fhir:v "JDV_J164-GlucoseNumberOfDays-ENS" ] ;
          fhir:valueSet [
-           fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J164-GlucoseNumberOfDays-ENS/FHIR/JDV-J164-GlucoseNumberOfDays-ENS|1.2.0"^^xsd:anyURI ;
-           fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J164-GlucoseNumberOfDays-ENS/FHIR/JDV-J164-GlucoseNumberOfDays-ENS?version=1.2.0>
+           fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J164-GlucoseNumberOfDays-ENS/FHIR/JDV-J164-GlucoseNumberOfDays-ENS|20250728120000"^^xsd:anyURI ;
+           fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J164-GlucoseNumberOfDays-ENS/FHIR/JDV-J164-GlucoseNumberOfDays-ENS?version=20250728120000>
          ]
        ] ;
        fhir:mapping ( [
@@ -1920,8 +1920,8 @@
            fhir:l fhir:Extension
          ] ;
          fhir:profile ( [
-           fhir:v "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-diabetis-type|3.1.0"^^xsd:anyURI ;
-           fhir:l <https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-diabetis-type?version=3.1.0>
+           fhir:v "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-diabetis-type|3.0.1"^^xsd:anyURI ;
+           fhir:l <https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-diabetis-type?version=3.0.1>
          ] )
        ] ) ;
        fhir:condition ( [ fhir:v "ele-1" ] ) ;
@@ -2928,8 +2928,8 @@
          fhir:strength [ fhir:v "extensible" ] ;
          fhir:description [ fhir:v "Glucose sanguin ou intersticiel" ] ;
          fhir:valueSet [
-           fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J154-TypeGlucose-ENS/FHIR/JDV-J154-TypeGlucose-ENS|1.2.0"^^xsd:anyURI ;
-           fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J154-TypeGlucose-ENS/FHIR/JDV-J154-TypeGlucose-ENS?version=1.2.0>
+           fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J154-TypeGlucose-ENS/FHIR/JDV-J154-TypeGlucose-ENS|20250728120000"^^xsd:anyURI ;
+           fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J154-TypeGlucose-ENS/FHIR/JDV-J154-TypeGlucose-ENS?version=20250728120000>
          ]
        ] ;
        fhir:mapping ( [
@@ -4196,8 +4196,8 @@
          fhir:strength [ fhir:v "required" ] ;
          fhir:description [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J163-GlucoseUnits-ENS/FHIR/JDV-J163-GlucoseUnits-ENS" ] ;
          fhir:valueSet [
-           fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J163-GlucoseUnits-ENS/FHIR/JDV-J163-GlucoseUnits-ENS|1.2.0"^^xsd:anyURI ;
-           fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J163-GlucoseUnits-ENS/FHIR/JDV-J163-GlucoseUnits-ENS?version=1.2.0>
+           fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J163-GlucoseUnits-ENS/FHIR/JDV-J163-GlucoseUnits-ENS|20240927120000"^^xsd:anyURI ;
+           fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J163-GlucoseUnits-ENS/FHIR/JDV-J163-GlucoseUnits-ENS?version=20240927120000>
          ]
        ] ;
        fhir:mapping ( [
@@ -4971,8 +4971,8 @@
        fhir:binding [
          fhir:strength [ fhir:v "required" ] ;
          fhir:valueSet [
-           fhir:v "https://interop.esante.gouv.fr/ig/fhir/mesures/ValueSet/method-glucose-vs|3.1.0"^^xsd:anyURI ;
-           fhir:l <https://interop.esante.gouv.fr/ig/fhir/mesures/ValueSet/method-glucose-vs?version=3.1.0>
+           fhir:v "https://interop.esante.gouv.fr/ig/fhir/mesures/ValueSet/method-glucose-vs|3.2.0"^^xsd:anyURI ;
+           fhir:l <https://interop.esante.gouv.fr/ig/fhir/mesures/ValueSet/method-glucose-vs?version=3.2.0>
          ]
        ] ;
        fhir:mapping ( [
@@ -5946,8 +5946,8 @@
          fhir:strength [ fhir:v "required" ] ;
          fhir:description [ fhir:v "JDV_J148-ReferenceRangeAppliesTo-CISIS" ] ;
          fhir:valueSet [
-           fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J148-ReferenceRangeAppliesTo-CISIS/FHIR/JDV-J148-ReferenceRangeAppliesTo-CISIS|1.2.0"^^xsd:anyURI ;
-           fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J148-ReferenceRangeAppliesTo-CISIS/FHIR/JDV-J148-ReferenceRangeAppliesTo-CISIS?version=1.2.0>
+           fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J148-ReferenceRangeAppliesTo-CISIS/FHIR/JDV-J148-ReferenceRangeAppliesTo-CISIS|20250131120000"^^xsd:anyURI ;
+           fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J148-ReferenceRangeAppliesTo-CISIS/FHIR/JDV-J148-ReferenceRangeAppliesTo-CISIS?version=20250131120000>
          ]
        ] ;
        fhir:mapping ( [

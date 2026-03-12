@@ -109,16 +109,16 @@
     "http://interopsante.org/fhir/StructureDefinition/FrObservationLevelOfExertion|1.0.1": [
       "Observation"
     ],
-    "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-diabetis-type|3.1.0": [
+    "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-diabetis-type|3.0.1": [
       "Observation"
     ],
-    "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-moment-of-measurement|3.1.0": [
+    "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-moment-of-measurement|3.2.0": [
       "Observation"
     ],
-    "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-number-of-days|3.1.0": [
+    "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-number-of-days|3.2.0": [
       "Observation"
     ],
-    "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-reason-for-measurement|3.1.0": [
+    "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-reason-for-measurement|3.2.0": [
       "Observation"
     ]
   }

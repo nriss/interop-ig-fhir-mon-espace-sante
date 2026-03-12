@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "MESObservationGlucose",
   "status" : "draft",
-  "date" : "2026-02-26T14:10:46+00:00",
+  "date" : "2026-03-12T14:12:24+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -707,7 +707,7 @@
       },
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-reason-for-measurement|3.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-reason-for-measurement|3.2.0"]
       }],
       "condition" : ["ele-1"],
       "constraint" : [{
@@ -743,7 +743,7 @@
       },
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-moment-of-measurement|3.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-moment-of-measurement|3.2.0"]
       }],
       "condition" : ["ele-1"],
       "constraint" : [{
@@ -898,7 +898,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "JDV-J157-MomentGlucose-ENS",
-        "valueSet" : "https://mos.esante.gouv.fr/NOS/JDV_J157-MomentGlucose-ENS/FHIR/JDV-J157-MomentGlucose-ENS|1.2.0"
+        "valueSet" : "https://mos.esante.gouv.fr/NOS/JDV_J157-MomentGlucose-ENS/FHIR/JDV-J157-MomentGlucose-ENS|20250728120000"
       },
       "mapping" : [{
         "identity" : "rim",
@@ -1388,7 +1388,7 @@
       },
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-number-of-days|3.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-number-of-days|3.2.0"]
       }],
       "condition" : ["ele-1"],
       "constraint" : [{
@@ -1535,7 +1535,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "JDV_J164-GlucoseNumberOfDays-ENS",
-        "valueSet" : "https://mos.esante.gouv.fr/NOS/JDV_J164-GlucoseNumberOfDays-ENS/FHIR/JDV-J164-GlucoseNumberOfDays-ENS|1.2.0"
+        "valueSet" : "https://mos.esante.gouv.fr/NOS/JDV_J164-GlucoseNumberOfDays-ENS/FHIR/JDV-J164-GlucoseNumberOfDays-ENS|20250728120000"
       },
       "mapping" : [{
         "identity" : "rim",
@@ -1557,7 +1557,7 @@
       },
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-diabetis-type|3.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-diabetis-type|3.0.1"]
       }],
       "condition" : ["ele-1"],
       "constraint" : [{
@@ -2398,7 +2398,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "Glucose sanguin ou intersticiel",
-        "valueSet" : "https://mos.esante.gouv.fr/NOS/JDV_J154-TypeGlucose-ENS/FHIR/JDV-J154-TypeGlucose-ENS|1.2.0"
+        "valueSet" : "https://mos.esante.gouv.fr/NOS/JDV_J154-TypeGlucose-ENS/FHIR/JDV-J154-TypeGlucose-ENS|20250728120000"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -3512,7 +3512,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "https://mos.esante.gouv.fr/NOS/JDV_J163-GlucoseUnits-ENS/FHIR/JDV-J163-GlucoseUnits-ENS",
-        "valueSet" : "https://mos.esante.gouv.fr/NOS/JDV_J163-GlucoseUnits-ENS/FHIR/JDV-J163-GlucoseUnits-ENS|1.2.0"
+        "valueSet" : "https://mos.esante.gouv.fr/NOS/JDV_J163-GlucoseUnits-ENS/FHIR/JDV-J163-GlucoseUnits-ENS|20240927120000"
       },
       "mapping" : [{
         "identity" : "v2",
@@ -4179,7 +4179,7 @@
       "isSummary" : false,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/mesures/ValueSet/method-glucose-vs|3.1.0"
+        "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/mesures/ValueSet/method-glucose-vs|3.2.0"
       },
       "mapping" : [{
         "identity" : "v2",
@@ -5022,7 +5022,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "JDV_J148-ReferenceRangeAppliesTo-CISIS",
-        "valueSet" : "https://mos.esante.gouv.fr/NOS/JDV_J148-ReferenceRangeAppliesTo-CISIS/FHIR/JDV-J148-ReferenceRangeAppliesTo-CISIS|1.2.0"
+        "valueSet" : "https://mos.esante.gouv.fr/NOS/JDV_J148-ReferenceRangeAppliesTo-CISIS/FHIR/JDV-J148-ReferenceRangeAppliesTo-CISIS|20250131120000"
       },
       "mapping" : [{
         "identity" : "sct-concept",

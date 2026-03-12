@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "MESObservationHeadCircumference",
   "status" : "draft",
-  "date" : "2026-02-26T14:10:46+00:00",
+  "date" : "2026-03-12T14:12:24+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -707,7 +707,7 @@
       },
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-reason-for-measurement|3.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-reason-for-measurement|3.2.0"]
       }],
       "condition" : ["ele-1"],
       "constraint" : [{

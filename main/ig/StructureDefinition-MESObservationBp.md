@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/mesmesures/StructureDefinition/MESObservationBp | *Version*:0.1.0 |
-| Draft as of 2026-02-26 | *Computable Name*:MESObservationBp |
+| Draft as of 2026-03-12 | *Computable Name*:MESObservationBp |
 
 **Utilisations:**
 
@@ -37,7 +37,7 @@ Other representations of profile: [CSV](StructureDefinition-MESObservationBp.csv
   "version" : "0.1.0",
   "name" : "MESObservationBp",
   "status" : "draft",
-  "date" : "2026-02-26T14:10:46+00:00",
+  "date" : "2026-03-12T14:12:24+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -87,7 +87,7 @@ Other representations of profile: [CSV](StructureDefinition-MESObservationBp.csv
   "kind" : "resource",
   "abstract" : false,
   "type" : "Observation",
-  "baseDefinition" : "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-bp|3.1.0",
+  "baseDefinition" : "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-bp|3.2.0",
   "derivation" : "constraint",
   "differential" : {
     "element" : [{

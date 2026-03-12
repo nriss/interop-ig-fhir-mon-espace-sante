@@ -14,7 +14,7 @@
     <sch:rule context="f:Observation">
       <sch:assert test="count(f:extension[@url = 'http://interopsante.org/fhir/StructureDefinition/FrObservationLevelOfExertion|1.0.1']) &lt;= 1">extension with URL = 'http://interopsante.org/fhir/StructureDefinition/FrObservationLevelOfExertion|1.0.1': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/StructureDefinition/workflow-supportingInfo|5.2.0']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/StructureDefinition/workflow-supportingInfo|5.2.0': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-reason-for-measurement|3.1.0']) &lt;= 1">extension with URL = 'https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-reason-for-measurement|3.1.0': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-reason-for-measurement|3.2.0']) &lt;= 1">extension with URL = 'https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-reason-for-measurement|3.2.0': maximum cardinality of 'extension' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>

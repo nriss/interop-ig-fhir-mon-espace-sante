@@ -20,7 +20,7 @@
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "MESObservationHeartrate"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-02-26T14:10:46+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-03-12T14:12:24+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris" ] ;
@@ -1004,8 +1004,8 @@
            fhir:l fhir:Extension
          ] ;
          fhir:profile ( [
-           fhir:v "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-moment-of-measurement|3.1.0"^^xsd:anyURI ;
-           fhir:l <https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-moment-of-measurement?version=3.1.0>
+           fhir:v "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-moment-of-measurement|3.2.0"^^xsd:anyURI ;
+           fhir:l <https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-moment-of-measurement?version=3.2.0>
          ] )
        ] ) ;
        fhir:constraint ( [
@@ -4303,8 +4303,8 @@
          fhir:strength [ fhir:v "required" ] ;
          fhir:description [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J147-MethodHeartrate-ENS/FHIR/JDV-J147-MethodHeartrate-ENS" ] ;
          fhir:valueSet [
-           fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J147-MethodHeartrate-ENS/FHIR/JDV-J147-MethodHeartrate-ENS|1.2.0"^^xsd:anyURI ;
-           fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J147-MethodHeartrate-ENS/FHIR/JDV-J147-MethodHeartrate-ENS?version=1.2.0>
+           fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J147-MethodHeartrate-ENS/FHIR/JDV-J147-MethodHeartrate-ENS|20240726120000"^^xsd:anyURI ;
+           fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J147-MethodHeartrate-ENS/FHIR/JDV-J147-MethodHeartrate-ENS?version=20240726120000>
          ]
        ] ;
        fhir:mapping ( [
@@ -4972,8 +4972,8 @@
          fhir:strength [ fhir:v "required" ] ;
          fhir:description [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J148-ReferenceRangeAppliesTo-CISIS/FHIR/JDV-J148-ReferenceRangeAppliesTo-CISIS" ] ;
          fhir:valueSet [
-           fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J148-ReferenceRangeAppliesTo-CISIS/FHIR/JDV-J148-ReferenceRangeAppliesTo-CISIS|1.2.0"^^xsd:anyURI ;
-           fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J148-ReferenceRangeAppliesTo-CISIS/FHIR/JDV-J148-ReferenceRangeAppliesTo-CISIS?version=1.2.0>
+           fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J148-ReferenceRangeAppliesTo-CISIS/FHIR/JDV-J148-ReferenceRangeAppliesTo-CISIS|20250131120000"^^xsd:anyURI ;
+           fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J148-ReferenceRangeAppliesTo-CISIS/FHIR/JDV-J148-ReferenceRangeAppliesTo-CISIS?version=20250131120000>
          ]
        ] ;
        fhir:mapping ( [
