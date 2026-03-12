@@ -9,4 +9,5 @@ https://nriss.github.io/interop-ig-fhir-mon-espace-sante/main/ig/StructureDefini
 
 # Le profil pression artérielle hérite de 3.2.0
 
+<img width="1215" height="406" alt="image" src="https://github.com/user-attachments/assets/1bac93d3-ed36-4fe1-a998-b51d94bd319b" />
 https://nriss.github.io/interop-ig-fhir-mon-espace-sante/main/ig/StructureDefinition-MESObservationBp.html
