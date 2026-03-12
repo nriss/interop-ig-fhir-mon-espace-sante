@@ -17,7 +17,7 @@ jurisdiction: urn:iso:std:iso:3166#FR "FRANCE"
 
 dependencies: # https://build.fhir.org/ig/FHIR/ig-guidance/versions.html#depending-on-multiple-different-versions-of-the-same-package
   ans.fhir.fr.mesures: 3.0.1
-  mesures@npm:ans.fhir.fr.mesures: 3.1.0
+  mesures@npm:ans.fhir.fr.mesures: 3.2.0
   hl7.fhir.fr.core: 1.1.0
 
 parameters: #Parameters list - https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html
